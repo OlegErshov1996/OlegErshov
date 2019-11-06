@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+<div class="container">
+    <header class="header">
+        <div class="wrap header__wrap">
+            <a href="#" class="header__logo">
+                <img class="logo" src="img/Logo2_Oleg_Ershov.svg" alt="Логотип">
+            </a>
+            <nav class="header__nav">
+                <ul class="menu header__menu">
+                    <li class="menu__element">
+                        <a class="menu__link" href="#banner">Главная</a>
+                    </li>
+                    <li class="menu__element">
+                        <a class="menu__link" href="#about_me">О себе</a>
+                    </li>
+                    <li class="menu__element">
+                        <a class="menu__link" href="#skills">Навыки</a>
+                    </li>
+                    <li class="menu__element">
+                        <a class="menu__link" href="#services">Услуги</a>
+                    </li>
+                    <li class="menu__element">
+                        <a class="menu__link" href="#contacts">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <a class="mobile__menu_button" href="#mobile__menu">
+                <span class="mobile__menu_line"></span>
+            </a>
+            <div class="mobile_menu_wrap">
+                <ul class="mobile_menu">
+                    <li class="mobile_menu__element">
+                        <a class="mobile_menu__link" href="#banner">Главная</a>
+                    </li>
+                    <li class="mobile_menu__element">
+                        <a class="mobile_menu__link" href="#about_me">О себе</a>
+                    </li>
+                    <li class="mobile_menu__element">
+                        <a class="mobile_menu__link" href="#skills">Навыки</a>
+                    </li>
+                    <li class="mobile_menu__element">
+                        <a class="mobile_menu__link" href="#services">Услуги</a>
+                    </li>
+                    <li class="mobile_menu__element">
+                        <a class="mobile_menu__link" href="#contacts">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="banner" id="banner">
+        <div class="banner__wrap wrap">
+            <div class="banner__info">
+                <h1 class="banner__title">
+                    Здравствуйте! Меня зовут Олег и я Junior Frontend Developer
+                </h1>
+            </div>
+        </div>
+    </section>
+</div>
+<div class="container about_me_wrap" id="about_me">
+    <h2 class="text_h2">Обо мне</h2>
+    <h3 class="text_h3">Образование</h3>
+    <p class="date_p">Сентябрь 2013 - Июнь 2018</p>
+    <p class="text_p m_t_15">Пензенский государственный университет</p>
+    <p class="text_p">Факультет приборостроения, информационных технологий и электроники</p>
+    <p class="text_p m_b_40">"Специальные организационно-технические системы"</p>
+    <p class="date_p">Март 2019 - Настоящее время</p>
+    <p class="text_p m_t_15">Самообразование в области web-разработки</p>
+    <h3 class="text_h3">Карьера</h3>
+    <p class="date_p">Июль 2019 - Ноябрь 2019</p>
+    <p class="text_p m_t_15">Центр новаций и технологий</p>
+    <p class="text_p">HTML-верстальщик</p>
+    <h3 class="text_h3">Увлечения</h3>
+    <p class="text_p m_t_15">Web-разработка</p>
+    <p class="text_p">Лёгкая атлетика</p>
+    <p class="text_p">Футбол</p>
+</div>
+<div class="container skills_wrap m_t_30" id="skills">
+    <h2 class="text_h2">Навыки</h2>
+    <div class="icon_wrap">
+        <img src="img/html-5_144.svg" alt="">
+        <img src="img/css-3_144.svg" alt="">
+        <img src="img/Sass_288.svg" height="144px" width="144px" alt="">
+        <img src="img/JavaScript_144.svg" alt="">
+        <img src="img/typescript_1.svg" height="144px" width="144px" class="icon_skills" alt="">
+<!--        <img src="img/VueJS_144.svg" height="135px" alt="">-->
+<!--        <img src="img/React_Native_144.svg" height="144px" width="144px" class="icon_skills" alt="">-->
+        <img src="img/nodejs-1.svg" height="144px" width="144px" class="icon_skills" alt="">
+        <img src="img/webpack_1.svg" height="144px" width="144px" class="icon_skills" alt="">
+        <img src="img/babel_1.svg" height="144px" width="144px" class="icon_skills" alt="">
+        <img src="img/Git_144.svg" alt="">
+        <img src="img/npm_144.svg" height="144px" width="144px" class="icon_skills" alt="">
+        <img src="img/figma_1.svg" height="144px" width="144px" class="icon_skills" alt="">
+        <img src="img/zeplin.svg" height="144px" width="144px" class="icon_skills" alt="">
+        <img src="img/Jira_144.svg" height="144px" width="144px" class="icon_skills" alt="">
+        <img src="img/Slack_144.svg" height="135px" alt="">
+<!--        <div class="progress">-->
+<!--            <progress max="100" value="0"></progress>-->
+<!--            <div class="progress-value"></div>-->
+<!--            <div class="progress-bg"><div class="progress-bar"></div></div>-->
+<!--        </div>-->
+    </div>
+</div>
+<div class="container services_wrap m_t_30" id="services">
+    <h2 class="text_h2">Услуги</h2>
+</div>
+<div class="container contacts_wrap m_t_30" id="contacts">
+    <h2 class="text_h2">Контакты</h2>
+</div>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
