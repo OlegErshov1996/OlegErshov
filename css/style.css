@@ -200,7 +200,7 @@
     height: 140vh; } }
 @media (max-width: 420px) {
   .skills_wrap {
-    height: 160vh; } }
+    height: 310vh; } }
 @media (max-width: 375px) {
   .skills_wrap {
     height: 325vh; } }
@@ -256,7 +256,7 @@
 
 @media (max-width: 420px) {
   .about_me_wrap {
-    height: 125vh; } }
+    height: 130vh; } }
 @media (max-width: 375px) {
   .about_me_wrap {
     height: 140vh; } }
