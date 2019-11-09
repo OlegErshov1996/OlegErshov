@@ -197,7 +197,7 @@
     height: 110vh; } }
 @media (max-width: 600px) {
   .skills_wrap {
-    height: 140vh; } }
+    height: 165vh; } }
 @media (max-width: 420px) {
   .skills_wrap {
     height: 310vh; } }
@@ -254,6 +254,9 @@
     color: #293844;
     border-radius: 0 12px 0 12px; }
 
+@media (max-width: 600px) {
+  .about_me_wrap {
+    height: 130vh; } }
 @media (max-width: 420px) {
   .about_me_wrap {
     height: 130vh; } }
