@@ -204,6 +204,9 @@
 @media (max-width: 375px) {
   .skills_wrap {
     height: 325vh; } }
+@media (min-width: 320px) and (max-width: 340px) {
+  .skills_wrap {
+    height: 380vh; } }
 .banner {
   background: url("../img/17.jpg") center top no-repeat;
   background-size: cover;
@@ -222,6 +225,9 @@
       text-align: center;
       font-size: 44px; }
 
+@media (min-width: 320px) and (max-width: 340px) {
+  .banner {
+    height: 120vh; } }
 .about_me_wrap {
   height: 100vh; }
   .about_me_wrap .text_h2 {
@@ -263,6 +269,9 @@
 @media (max-width: 375px) {
   .about_me_wrap {
     height: 140vh; } }
+@media (min-width: 320px) and (max-width: 340px) {
+  .about_me_wrap {
+    height: 185vh; } }
 .services_wrap {
   height: 100vh; }
   .services_wrap .text_h2 {
