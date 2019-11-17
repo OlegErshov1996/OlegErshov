@@ -206,7 +206,7 @@
     height: 325vh; } }
 @media (min-width: 320px) and (max-width: 340px) {
   .skills_wrap {
-    height: 380vh; } }
+    height: 400vh; } }
 .banner {
   background: url("../img/17.jpg") center top no-repeat;
   background-size: cover;
@@ -271,7 +271,7 @@
     height: 140vh; } }
 @media (min-width: 320px) and (max-width: 340px) {
   .about_me_wrap {
-    height: 185vh; } }
+    height: 195vh; } }
 .services_wrap {
   height: 100vh; }
   .services_wrap .text_h2 {

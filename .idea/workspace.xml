@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6553e19-a729-402a-bca4-c19a6aa88405" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_about_me.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_about_me.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_banner.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_banner.sassc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_skills.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_skills.sassc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_about_me.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_about_me.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_banner.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_banner.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_skills.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_skills.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/_about_me.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+            <state relative-caret-position="389">
+              <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -74,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/_skills.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="406">
+              <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -129,9 +125,9 @@
         <option value="$PROJECT_DIR$/sass/_progres-bar.sass" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/sass/_banner.sass" />
         <option value="$PROJECT_DIR$/sass/_about_me.sass" />
         <option value="$PROJECT_DIR$/sass/_skills.sass" />
-        <option value="$PROJECT_DIR$/sass/_banner.sass" />
       </list>
     </option>
   </component>
@@ -210,12 +206,12 @@
       <workItem from="1572511346625" duration="7709000" />
       <workItem from="1572808851091" duration="17544000" />
       <workItem from="1572891286815" duration="44001000" />
-      <workItem from="1574002370505" duration="1659000" />
+      <workItem from="1574002370505" duration="2960000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97295000" />
+    <option name="totallyTimeSpent" value="98596000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -324,13 +320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_skills.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/_banner.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -340,8 +329,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/_about_me.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        <state relative-caret-position="389">
+          <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_skills.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
         </state>
       </provider>
     </entry>
