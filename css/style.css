@@ -174,8 +174,8 @@
 .skills_wrap {
   background: url("../img/23_2.jpg") center top no-repeat;
   background-size: cover;
-  height: 100vh;
-  padding-top: 1px; }
+  height: auto;
+  padding: 30px 0; }
   .skills_wrap .icon_wrap {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
@@ -186,27 +186,12 @@
       padding: 19px; }
   .skills_wrap .text_h2 {
     width: max-content;
-    margin: 40px auto 25px;
+    margin: 0 auto 25px;
     font-size: 45px;
     border-top: 7px double;
     border-bottom: 7px double;
     color: #ff7043; }
 
-@media (max-width: 800px) {
-  .skills_wrap {
-    height: 110vh; } }
-@media (max-width: 600px) {
-  .skills_wrap {
-    height: 165vh; } }
-@media (max-width: 420px) {
-  .skills_wrap {
-    height: 310vh; } }
-@media (max-width: 375px) {
-  .skills_wrap {
-    height: 325vh; } }
-@media (min-width: 320px) and (max-width: 340px) {
-  .skills_wrap {
-    height: 400vh; } }
 .banner {
   background: url("../img/17.jpg") center top no-repeat;
   background-size: cover;
@@ -229,10 +214,11 @@
   .banner {
     height: 120vh; } }
 .about_me_wrap {
-  height: 100vh; }
+  height: auto;
+  padding: 30px 0; }
   .about_me_wrap .text_h2 {
     width: max-content;
-    margin: 40px auto 0;
+    margin: 0 auto 0;
     font-size: 45px;
     border-top: 7px double;
     border-bottom: 7px double;
@@ -260,23 +246,21 @@
     color: #293844;
     border-radius: 0 12px 0 12px; }
 
-@media (max-width: 600px) {
-  .about_me_wrap {
-    height: 130vh; } }
-@media (max-width: 420px) {
-  .about_me_wrap {
-    height: 130vh; } }
 @media (max-width: 375px) {
-  .about_me_wrap {
-    height: 140vh; } }
-@media (min-width: 320px) and (max-width: 340px) {
-  .about_me_wrap {
-    height: 195vh; } }
+  .about_me_wrap .text_h2 {
+    font-size: 35px; }
+  .about_me_wrap .text_h3 {
+    font-size: 30px; }
+  .about_me_wrap .text_p {
+    font-size: 20px; }
+  .about_me_wrap .date_p {
+    font-size: 20px; } }
 .services_wrap {
-  height: 100vh; }
+  height: 100vh;
+  padding: 30px 0; }
   .services_wrap .text_h2 {
     width: max-content;
-    margin: 40px auto 0;
+    margin: 0 auto 0;
     font-size: 45px;
     border-top: 7px double;
     border-bottom: 7px double;
@@ -284,12 +268,12 @@
 
 .contacts_wrap {
   height: 100vh;
+  padding: 30px 0;
   background: url("../img/25_1.jpg") center top no-repeat;
-  background-size: cover;
-  padding-top: 1px; }
+  background-size: cover; }
   .contacts_wrap .text_h2 {
     width: max-content;
-    margin: 40px auto 0;
+    margin: 0 auto 0;
     font-size: 45px;
     border-top: 7px double;
     border-bottom: 7px double;
