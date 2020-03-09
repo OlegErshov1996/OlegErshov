@@ -225,12 +225,30 @@
   height: auto;
   padding: 30px 10px; }
   .about_me_wrap .text_h2 {
-    width: max-content;
-    margin: 0 auto 0;
+    margin: 0 auto;
     font-size: 45px;
-    border-top: 7px double;
-    border-bottom: 7px double;
-    color: #ff7043; }
+    color: #ff7043;
+    display: table;
+    width: auto;
+    letter-spacing: 4px; }
+    .about_me_wrap .text_h2 ::before {
+      content: "";
+      position: absolute;
+      top: -50%;
+      left: -25px;
+      width: 30px;
+      height: 20px;
+      border-top: 2px solid orange;
+      z-index: 15; }
+    .about_me_wrap .text_h2 ::after {
+      content: "";
+      position: absolute;
+      bottom: -50%;
+      right: -25px;
+      width: 30px;
+      height: 20px;
+      z-index: 15;
+      border-top: 2px solid orange; }
   .about_me_wrap .text_h3 {
     width: max-content;
     margin: 40px auto 0;
