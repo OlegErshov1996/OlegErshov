@@ -304,6 +304,17 @@
     border-top: 7px double;
     border-bottom: 7px double;
     color: #ff7043; }
+    .contacts_wrap .text_h2 .box-contacts {
+      position: relative;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(autofit, minmax(300px, 1fr)); }
+      .contacts_wrap .text_h2 .box-contacts .wrap-input {
+        position: relative;
+        width: 100%;
+        padding: 0 10px;
+        margin: 30px 0 10px;
+        transition: 0.5s; }
 
 * {
   margin: 0;
