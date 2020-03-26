@@ -3,6 +3,7 @@
   padding: 30px 0
   background: url("../img/25_1.jpg") center top no-repeat
   background-size: cover
+
   .text_h2
     width: max-content
     margin: 0 auto 0
@@ -10,21 +11,65 @@
     border-top: 7px double
     border-bottom: 7px double
     color: rgba(255, 112, 67, 1)
-    .box-contacts
+
+  .box-contacts
+    position: relative
+    width: 100%
+    display: grid
+    grid-template-columns: repeat(autofit, minmax(300px, 1fr))
+
+    .wrap-input
       position: relative
       width: 100%
-      display: grid
-      grid-template-columns: repeat(autofit, minmax(300px,1fr))
-      .wrap-input
+      padding: 0 10px
+      margin: 30px 0 10px
+      transition: 0.5s
+
+      .box-input
         position: relative
         width: 100%
-        padding: 0 10px
-        margin: 30px 0 10px
-        transition: 0.5s
-        .box-input
+        height: 40px
+        color: $orange
+        .input-text
           position: relative
           width: 100%
-          height: 40px
-          color: #45f3ff
+          height: 100%
+          background: transparent
+          box-shadow: none
+          border: none
+          outline: none
+          font-size: 18px
+          padding: 0 10px
+          z-index: 1
+          color: $white
+          &:focus, &:valid
+            top: -35px
+            left: -10px
+
+        .text
+          position: absolute
+          top: 0
+          left: 0
+          line-height: 40px
+          font-size: 18px
+          padding: 0 10px
+          display: block
+          transition: 0.5s
+          pointer-events: none
+          &:focus, &:valid
+            top: -35px
+            left: -10px
+          .line
+            position: absolute
+            bottom: 0
+            display: block
+            width: 100%
+            height: 2px
+            background: $orange
+            transition: 0.5s
+            border-radius: 2px
+            pointer-events: none
+
+
 
 
