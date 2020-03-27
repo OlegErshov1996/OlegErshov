@@ -7,6 +7,7 @@
       <change beforePath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/style.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/style.sassc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_contacts.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_contacts.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="164" column="6" lean-forward="true" selection-start-line="120" selection-end-line="164" selection-end-column="6" />
+            <state relative-caret-position="293">
+              <caret line="169" column="30" lean-forward="true" selection-start-line="169" selection-start-column="30" selection-end-line="169" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -130,10 +131,10 @@
         <option value="$PROJECT_DIR$/sass/_footer.sass" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/_button-top.sass" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/_menu.sass" />
         <option value="$PROJECT_DIR$/sass/style.sass" />
         <option value="$PROJECT_DIR$/sass/_contacts.sass" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -227,16 +228,15 @@
       <workItem from="1584213333955" duration="10370000" />
       <workItem from="1584306458208" duration="24000" />
       <workItem from="1584388434349" duration="1735000" />
-      <workItem from="1585255937744" duration="2865000" />
+      <workItem from="1585255937744" duration="4427000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151662000" />
+    <option name="totallyTimeSpent" value="153224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1188946" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -251,7 +251,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27057183" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.37238494" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -386,8 +386,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="164" column="6" lean-forward="true" selection-start-line="120" selection-end-line="164" selection-end-column="6" />
+        <state relative-caret-position="293">
+          <caret line="169" column="30" lean-forward="true" selection-start-line="169" selection-start-column="30" selection-end-line="169" selection-end-column="30" />
         </state>
       </provider>
     </entry>
