@@ -347,6 +347,8 @@
         display: block;
         transition: 0.5s;
         pointer-events: none; }
+      .contacts_wrap .box-contacts .box-input .text-sms {
+        top: 60px; }
       .contacts_wrap .box-contacts .box-input .line {
         position: absolute;
         bottom: 0;
