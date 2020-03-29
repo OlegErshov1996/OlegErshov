@@ -310,11 +310,26 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
     .contacts_wrap .box-contacts .wrap-input {
+      display: flex;
+      justify-content: center;
       position: relative;
       width: 100%;
       padding: 0 10px;
       margin: 30px 0 10px;
       transition: 0.5s; }
+      .contacts_wrap .box-contacts .wrap-input .input-submit {
+        border: 2px solid #ff7043;
+        padding: 7px 35px;
+        cursor: pointer;
+        outline: none;
+        background: #ff7043;
+        color: #ffffff;
+        font-size: 25px;
+        font-weight: bold;
+        border-radius: 6px; }
+        .contacts_wrap .box-contacts .wrap-input .input-submit:hover {
+          background: transparent;
+          color: #ff7043; }
     .contacts_wrap .box-contacts .box-input {
       position: relative;
       width: 100%;
@@ -328,7 +343,8 @@
         box-shadow: none;
         border: none;
         outline: none;
-        font-size: 18px;
+        font-size: 25px;
+        font-weight: bold;
         padding: 0 10px;
         z-index: 1;
         color: #ffffff; }
@@ -342,13 +358,14 @@
         top: 0;
         left: 0;
         line-height: 40px;
-        font-size: 18px;
+        font-size: 25px;
+        font-weight: bold;
         padding: 0 10px;
         display: block;
         transition: 0.5s;
         pointer-events: none; }
       .contacts_wrap .box-contacts .box-input .text-sms {
-        top: 60px; }
+        top: 140px; }
       .contacts_wrap .box-contacts .box-input .line {
         position: absolute;
         bottom: 0;
@@ -357,31 +374,21 @@
         height: 2px;
         background: #ff7043;
         transition: 0.5s;
-        border-radius: 2px;
+        border-radius: 6px;
         pointer-events: none; }
       .contacts_wrap .box-contacts .box-input.textarea {
         position: relative;
         width: 100%;
-        height: 100px;
+        height: 180px;
         padding: 10px 0; }
         .contacts_wrap .box-contacts .box-input.textarea textarea {
-          height: 100%;
+          height: -webkit-fill-available;
           resize: none; }
       .contacts_wrap .box-contacts .box-input textarea:focus + .text, .contacts_wrap .box-contacts .box-input textarea:valid + .text {
         top: -35px;
         left: -10px; }
       .contacts_wrap .box-contacts .box-input textarea:focus ~ .line, .contacts_wrap .box-contacts .box-input textarea:valid ~ .line {
         height: 100px; }
-
-input[type="submit"] {
-  border: none;
-  padding: 7px 35px;
-  cursor: pointer;
-  outline: none;
-  background: #ff7043;
-  color: #ffffff;
-  font-size: 18px;
-  border-radius: 2px; }
 
 * {
   margin: 0;

@@ -17,18 +17,37 @@
     width: 100%
     display: grid
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
+
     .wrap-input
+      display: flex
+      justify-content: center
       position: relative
       width: 100%
       padding: 0 10px
       margin: 30px 0 10px
       transition: 0.5s
 
+      .input-submit
+        border: 2px solid $orange
+        padding: 7px 35px
+        cursor: pointer
+        outline: none
+        background: $orange
+        color: $white
+        font-size: 25px
+        font-weight: bold
+        border-radius: 6px
+
+        &:hover
+          background: transparent
+          color: $orange
+
     .box-input
       position: relative
       width: 100%
       height: 40px
       color: $orange
+
       input, &.textarea textarea
         position: absolute
         width: 100%
@@ -37,10 +56,12 @@
         box-shadow: none
         border: none
         outline: none
-        font-size: 18px
+        font-size: 25px
+        font-weight: bold
         padding: 0 10px
         z-index: 1
         color: $white
+
         &:focus + .text, &:valid + .text
           top: -35px
           left: -10px
@@ -48,20 +69,20 @@
         &:focus ~ .line, &:valid ~ .line
           height: 100%
 
-
       .text
         position: absolute
         top: 0
         left: 0
         line-height: 40px
-        font-size: 18px
+        font-size: 25px
+        font-weight: bold
         padding: 0 10px
         display: block
         transition: 0.5s
         pointer-events: none
 
       .text-sms
-        top: 60px
+        top: 140px
 
       .line
         position: absolute
@@ -71,18 +92,19 @@
         height: 2px
         background: $orange
         transition: 0.5s
-        border-radius: 2px
+        border-radius: 6px
         pointer-events: none
 
       &.textarea
         position: relative
         width: 100%
-        height: 100px
+        height: 180px
         padding: 10px 0
-        textarea
-          height: 100%
-          resize: none
 
+        textarea
+          //height: 100%
+          height: -webkit-fill-available
+          resize: none
 
       textarea:focus + .text, textarea:valid + .text
         top: -35px
@@ -90,18 +112,3 @@
 
       textarea:focus ~ .line, textarea:valid ~ .line
         height: 100px
-
-
-
-
-input[type="submit"]
-  border: none
-  padding: 7px 35px
-  cursor: pointer
-  outline: none
-  background: $orange
-  color: $white
-  font-size: 18px
-  border-radius: 2px
-
-
