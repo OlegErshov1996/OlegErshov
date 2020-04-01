@@ -1,17 +1,18 @@
 const text = document.querySelector(".banner__title");
 const strText = text.textContent;
 const splitText = strText.split("");
+console.log(splitText);
 text.textContent = "";
 for (let i = 0; i < splitText.length; i++) {
-    text.innerHTML += "<span>" + splitText[i] + "</span>>";
+    text.innerHTML += "<h6>" + splitText[i] + "</h6>";
 }
 
 let char = 0;
 let timer = setInterval(onTick, 50);
 
 function onTick() {
-    const span = text.querySelectorAll('span')[char];
-    span.classList.add('fade');
+    const h6 = text.querySelectorAll('h6')[char];
+    h6.classList.add('fade');
     char++;
     if (char === splitText.length) {
         complete();
