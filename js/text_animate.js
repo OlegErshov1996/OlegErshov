@@ -1,8 +1,7 @@
 const text = document.querySelector(".banner__title");
 const strText = text.textContent;
 const splitText = strText.split("");
-console.log(splitText);
-text.textContent = "";
+text.textContent = " ";
 for (let i = 0; i < splitText.length; i++) {
     text.innerHTML += "<h6>" + splitText[i] + "</h6>";
 }
