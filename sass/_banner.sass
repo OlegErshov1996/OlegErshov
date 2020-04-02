@@ -1,21 +1,46 @@
 .banner
-  background: url("../img/17.jpg") center top no-repeat
-  background-size: cover
-  background-attachment: fixed
-  opacity: 0.5
+  width: 100%
   height: 100vh
-  //margin-top: 89px
-.banner__wrap
-  padding: 250px 20px
-  .banner__info
-    max-width: 710px
-    margin: auto
-    .banner__title
-      color: $white
-      text-shadow: 2px 2px 10px red
-      text-align: center
-      font-size: 44px
-      margin: 3.67em 0
+  background: black
+  position: relative
+  overflow: hidden
+
+  &:after
+    content: ""
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    background: url("../img/24.jpg") no-repeat
+    background-attachment: fixed
+    background-size: cover
+    opacity: 0.3
+    animation: animateFon 30s linear infinite
+
+@keyframes animateFon
+  50%
+    transform: scale(1.5)
+  100%
+    transform: scale(1)
+
+.banner__info
+  position: absolute
+  z-index: 1
+  top: 50%
+  left: 50%
+  width: 100%
+  transform: translate(-50%, -50%)
+  max-width: 800px
+  text-align: center
+  padding: 0 40px
+  box-sizing: border-box
+
+  .banner__title
+    color: $grey-text
+    font-size: 44px
+    text-shadow: 1px 1px 10px $black
+
 
 h6
   display: inline
@@ -23,9 +48,6 @@ h6
   font-weight: bold
   opacity: 0
   transition: all 0.5s ease
+
   &.fade
     opacity: 1
-
-@media (max-width: 375px)
-  .banner
-    margin-top: 70px
