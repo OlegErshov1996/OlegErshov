@@ -255,7 +255,8 @@ h6 {
 
 .about_me_wrap {
   height: auto;
-  padding: 30px 10px; }
+  padding: 30px 10px;
+  background: linear-gradient(45deg, rgba(41, 56, 68, 0.9), rgba(40, 42, 54, 0.7)), url("../img/27.jpg") center top no-repeat; }
   .about_me_wrap .text_h2 {
     margin: 0 auto;
     font-size: 45px;
@@ -315,7 +316,8 @@ h6 {
     font-size: 20px; } }
 .services_wrap {
   height: 100vh;
-  padding: 30px 0; }
+  padding: 30px 0;
+  background: linear-gradient(45deg, rgba(41, 56, 68, 0.9), rgba(40, 42, 54, 0.7)), url("../img/27.jpg") center top no-repeat; }
   .services_wrap .text_h2 {
     width: max-content;
     margin: 0 auto 0;
@@ -444,8 +446,7 @@ body {
 .container {
   min-width: 320px;
   max-width: 100%;
-  margin: 0 auto;
-  background-color: #293844; }
+  margin: 0 auto; }
 
 .wrap {
   min-width: 320px;
