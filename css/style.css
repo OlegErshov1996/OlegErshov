@@ -200,16 +200,42 @@
     margin: 0 auto 25px;
     font-size: 45px;
     color: #ff7043; }
-    .skills_wrap .text_h2:before, .skills_wrap .text_h2:after {
+    .skills_wrap .text_h2:before {
       content: "";
       position: absolute;
-      top: 50%;
-      width: 30px;
-      border-bottom: 3px solid; }
+      top: -15%;
+      left: -20px;
+      width: 50px;
+      height: 15px;
+      border-top: 3px solid #ff7043;
+      z-index: 15; }
     .skills_wrap .text_h2:before {
-      left: -45px; }
+      content: "";
+      position: absolute;
+      top: -15%;
+      left: -20px;
+      width: 50px;
+      height: 15px;
+      border-left: 3px solid #ff7043;
+      z-index: 15; }
     .skills_wrap .text_h2:after {
-      right: -45px; }
+      content: "";
+      position: absolute;
+      bottom: -10%;
+      right: -20px;
+      width: 50px;
+      height: 15px;
+      z-index: 15;
+      border-bottom: 3px solid #ff7043; }
+    .skills_wrap .text_h2:after {
+      content: "";
+      position: absolute;
+      bottom: -10%;
+      right: -20px;
+      width: 50px;
+      height: 15px;
+      z-index: 15;
+      border-right: 3px solid #ff7043; }
 
 .banner {
   width: 100%;
