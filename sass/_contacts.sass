@@ -1,21 +1,49 @@
 .contacts_wrap
+  width: 100%
   height: 100vh
+  background: black
+  position: relative
+  overflow: hidden
   padding: 30px 0
-  background: url("../img/25_1.jpg") center top no-repeat
-  background-size: cover
-  background-attachment: fixed
+
+  &:after
+    content: ""
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    background: url("../img/25.jpg") no-repeat
+    background-attachment: fixed
+    background-size: cover
+    opacity: 0.2
+    animation: animateFon 30s linear infinite
 
   .text_h2
+    position: relative
+    z-index: 1
     width: max-content
     margin: 0 auto 0
     font-size: 45px
-    border-top: 7px double
-    border-bottom: 7px double
     color: $orange
+
+    &:before, &:after
+      content: ""
+      position: absolute
+      top: 50%
+      width: 30px
+      border-bottom: 3px solid
+
+    &:before
+      left: -45px
+
+    &:after
+      right: -45px
 
   .box-contacts
     position: relative
     width: 100%
+    z-index: 7
     display: grid
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
 
@@ -34,10 +62,11 @@
         cursor: pointer
         outline: none
         background: $orange
-        color: $white
+        color: $primary
         font-size: 25px
         font-weight: bold
         border-radius: 6px
+        letter-spacing: 2px
 
         &:hover
           background: transparent
@@ -114,3 +143,9 @@
 
       textarea:focus ~ .line, textarea:valid ~ .line
         height: 100px
+
+@keyframes animateFon
+  50%
+    transform: scale(1.5)
+  100%
+    transform: scale(1)

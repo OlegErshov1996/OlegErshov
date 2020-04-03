@@ -1,5 +1,5 @@
 .skills_wrap
-  background: url("../img/23_2.jpg") center top no-repeat
+  background: url("../img/23.jpg") center no-repeat
   background-size: cover
   background-attachment: fixed
   height: auto
@@ -16,12 +16,25 @@
       padding: 19px
 
   .text_h2
+    position: relative
+    z-index: 1
     width: max-content
     margin: 0 auto 25px
     font-size: 45px
-    border-top: 7px double
-    border-bottom: 7px double
     color: rgba(255, 112, 67, 1)
+
+    &:before, &:after
+      content: ""
+      position: absolute
+      top: 50%
+      width: 30px
+      border-bottom: 3px solid
+
+    &:before
+      left: -45px
+
+    &:after
+      right: -45px
 
 
 @media (max-width: 800px)

@@ -4,41 +4,70 @@
   padding: 30px 10px
   background: linear-gradient(45deg, rgba(41, 56, 68, 0.9), rgba(40, 42, 54, 0.7)), url("../img/27.jpg") center top no-repeat
   .text_h2
-    //width: max-content
+    position: relative
+    z-index: 1
     margin: 0 auto
     font-size: 45px
-    //border-top: 7px double
-    //border-bottom: 7px double
     color: rgba(255, 112, 67, 1)
     display: table
     width: auto
     letter-spacing: 4px
-    ::before
+    &:before
       content: ""
       position: absolute
-      top: -50%
-      left: -25px
-      width: 30px
-      height: 20px
-      border-top: 2px solid orange
+      top: -15%
+      left: -20px
+      width: 50px
+      height: 15px
+      border-top: 3px solid $orange
       z-index: 15
-    ::after
+    &:before
       content: ""
       position: absolute
-      bottom: -50%
-      right: -25px
-      width: 30px
-      height: 20px
+      top: -15%
+      left: -20px
+      width: 50px
+      height: 15px
+      border-left: 3px solid $orange
       z-index: 15
-      border-top: 2px solid orange
+    &:after
+      content: ""
+      position: absolute
+      bottom: -10%
+      right: -20px
+      width: 50px
+      height: 15px
+      z-index: 15
+      border-bottom: 3px solid $orange
+    &:after
+      content: ""
+      position: absolute
+      bottom: -10%
+      right: -20px
+      width: 50px
+      height: 15px
+      z-index: 15
+      border-right: 3px solid $orange
   .text_h3
+    position: relative
+    z-index: 1
     width: max-content
     margin: 40px auto 0
     padding: 0 10px
     font-size: 35px
     color: $grey
-    border-left: 3px solid
-    border-right: 3px solid
+    &:before, &:after
+      content: ""
+      position: absolute
+      top: 50%
+      width: 30px
+      border-bottom: 3px solid
+
+    &:before
+      left: -35px
+
+    &:after
+      right: -35px
   .text_p
     font-size: 25px
     text-align: center
