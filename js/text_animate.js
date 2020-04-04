@@ -1,3 +1,4 @@
+/* ===============================================   ES6   =============================================== */
 // const text = document.querySelector(".banner__title");
 // const strText = text.textContent;
 // const splitText = strText.split("");
@@ -24,6 +25,7 @@
 //     timer = null;
 // }
 
+/* ===============================================   ES5   =============================================== */
 "use strict";
 
 var text = document.querySelector(".banner__title");
