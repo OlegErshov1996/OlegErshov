@@ -2,89 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6553e19-a729-402a-bca4-c19a6aa88405" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_about_me.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_about_me.sassc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_contacts.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_contacts.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_services.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_services.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_skills.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_skills.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/style.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/style.sassc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Facebook_48.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Facebook_96.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Favicon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Favicon_1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Git_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Git_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Instagram_48.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Instagram_96.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/JavaScript_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/JavaScript_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Jira_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Jira_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Logo1_Oleg_Ershov.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Logo2_Oleg_Ershov.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Logo_Oleg_Ershov.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ManUnited_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ManUnited_48.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ManUnited_96.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/MongoDB_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/MongoDB_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/NodeJS_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/NodeJS_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Oleg_Ershov_logo_orange.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Oleg_Ershov_logo_orange_1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/React_Native_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/React_Native_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Sass_1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Sass_288.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Skype_48.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Skype_96.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Slack_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Slack_48.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Slack_96.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Telegram_48.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Telegram_96.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/VK_48.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/VK_96.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/VueJS_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/VueJS_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Whatsapp_48.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Whatsapp_96.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/adobe-illustrator_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/adobe-illustrator_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/adobe-photoshop_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/adobe-photoshop_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/audi_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/audi_48.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/audi_96.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/babel_1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bitbucket_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bitbucket_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/css-3_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/css-3_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/figma_1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/github_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/github_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gitlab_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gitlab_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/html-5_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/html-5_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/nodejs-1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/npm_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/npm_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/react-1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/typescript.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/typescript_1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/webpack_1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/zeplin.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/text_animate.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/text_animate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_about_me.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_about_me.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_contacts.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_contacts.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_services.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_services.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_skills.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_skills.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="176" column="39" selection-start-line="176" selection-start-column="39" selection-end-line="176" selection-end-column="39" />
+            <state relative-caret-position="344">
+              <caret line="181" column="76" lean-forward="true" selection-start-line="181" selection-start-column="76" selection-end-line="181" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -118,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/_contacts.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="181" selection-start-line="181" selection-end-line="181" />
+            <state relative-caret-position="264">
+              <caret line="194" column="10" selection-start-line="194" selection-start-column="10" selection-end-line="194" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -305,18 +227,17 @@
       <workItem from="1584213333955" duration="10370000" />
       <workItem from="1584306458208" duration="24000" />
       <workItem from="1584388434349" duration="1735000" />
-      <workItem from="1585255937744" duration="70450000" />
+      <workItem from="1585255937744" duration="78706000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219247000" />
+    <option name="totallyTimeSpent" value="227503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14845759" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14845759" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -350,7 +271,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36401674" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31520224" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -426,13 +347,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_variables.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/_menu.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2928">
@@ -468,17 +382,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_variables.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="176" column="39" selection-start-line="176" selection-start-column="39" selection-end-line="176" selection-end-column="39" />
+        <state relative-caret-position="344">
+          <caret line="181" column="76" lean-forward="true" selection-start-line="181" selection-start-column="76" selection-end-line="181" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/_contacts.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="181" selection-start-line="181" selection-end-line="181" />
+        <state relative-caret-position="264">
+          <caret line="194" column="10" selection-start-line="194" selection-start-column="10" selection-end-line="194" selection-end-column="10" />
         </state>
       </provider>
     </entry>
