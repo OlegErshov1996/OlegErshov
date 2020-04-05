@@ -1,9 +1,10 @@
 .skills_wrap
-  background: url("../img/23.jpg") center no-repeat
-  background-size: cover
-  background-attachment: fixed
+  width: 100%
   height: auto
-  padding: 30px 0
+  background: black
+  position: relative
+  overflow: hidden
+  padding: 30px 30px
 
   .icon_wrap
     display: grid
@@ -62,28 +63,16 @@
       border-right: 3px solid $orange
 
 
-@media (max-width: 800px)
-
-
-@media (max-width: 600px)
-
-
-@media (max-width: 420px)
-
-
-@media (max-width: 375px)
-
-
-@media (min-width: 320px) and (max-width: 340px)
-
-
 .skills_container
   position: relative
-  width: 960px
-  margin: 40px auto
+  width: auto
+  margin: 80px auto 20px
   display: grid
   grid-template-columns: repeat(auto-fit, minmax(200px, auto))
-  grid-gap: 20px
+  grid-auto-flow: row
+  grid-gap: 40px
+  justify-items: center
+  align-items: center
 
   .card
     display: flex
@@ -126,9 +115,7 @@
     &:before
       content: ''
       position: absolute
-      top: 10px
-      left: -90px
-      transform: rotate(-25deg)
+      transform: rotate(15deg)
       width: 100%
       height: 500px
       background-color: rgba(255,255,255,0.05)
@@ -177,7 +164,7 @@
       position: relative
       width: 150px
       height: 150px
-      transform: rotate(-85deg)
+      transform: rotate(-90deg)
 
       circle
         width: 100%
@@ -204,12 +191,114 @@
       svg
         circle
           &:nth-child(2)
-            stroke-dashoffset: calc(440px - (440px * 40) / 100)
+            stroke-dashoffset: calc(440px - (440px * 80) / 100)
             stroke: rgba(1,81,145,0.9)
 
     &:nth-child(3)
       svg
         circle
           &:nth-child(2)
-            stroke-dashoffset: calc(440px - (440px * 60) / 100)
+            stroke-dashoffset: calc(440px - (440px * 40) / 100)
             stroke: rgba(1,81,145,0.9)
+
+    &:nth-child(4)
+      svg
+        circle
+          &:nth-child(2)
+            stroke-dashoffset: calc(440px - (440px * 40) / 100)
+            stroke: rgba(1,81,145,0.9)
+
+    &:nth-child(5)
+      svg
+        circle
+          &:nth-child(2)
+            stroke-dashoffset: calc(440px - (440px * 20) / 100)
+            stroke: rgba(1,81,145,0.9)
+
+    &:nth-child(6)
+      svg
+        circle
+          &:nth-child(2)
+            stroke-dashoffset: calc(440px - (440px * 20) / 100)
+            stroke: rgba(1,81,145,0.9)
+
+    &:nth-child(7)
+      svg
+        circle
+          &:nth-child(2)
+            stroke-dashoffset: calc(440px - (440px * 50) / 100)
+            stroke: rgba(1,81,145,0.9)
+
+    &:nth-child(8)
+      svg
+        circle
+          &:nth-child(2)
+            stroke-dashoffset: calc(440px - (440px * 20) / 100)
+            stroke: rgba(1,81,145,0.9)
+
+    &:nth-child(9)
+      svg
+        circle
+          &:nth-child(2)
+            stroke-dashoffset: calc(440px - (440px * 70) / 100)
+            stroke: rgba(1,81,145,0.9)
+
+    &:nth-child(10)
+      svg
+        circle
+          &:nth-child(2)
+            stroke-dashoffset: calc(440px - (440px * 20) / 100)
+            stroke: rgba(1,81,145,0.9)
+
+    &:nth-child(11)
+      svg
+        circle
+          &:nth-child(2)
+            stroke-dashoffset: calc(440px - (440px * 50) / 100)
+            stroke: rgba(1,81,145,0.9)
+
+    &:nth-child(12)
+      svg
+        circle
+          &:nth-child(2)
+            stroke-dashoffset: calc(440px - (440px * 80) / 100)
+            stroke: rgba(1,81,145,0.9)
+
+    &:nth-child(13)
+      svg
+        circle
+          &:nth-child(2)
+            stroke-dashoffset: calc(440px - (440px * 80) / 100)
+            stroke: rgba(1,81,145,0.9)
+
+    &:nth-child(14)
+      svg
+        circle
+          &:nth-child(2)
+            stroke-dashoffset: calc(440px - (440px * 50) / 100)
+            stroke: rgba(1,81,145,0.9)
+
+
+@media (max-width: 800px)
+
+@media (max-width: 600px)
+
+@media (max-width: 420px)
+
+@media (max-width: 375px)
+
+@media (min-width: 320px) and (max-width: 340px)
+
+.skills_wrap
+  &:before
+    content: ""
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    background: url("../img/23.jpg") bottom no-repeat
+    background-attachment: fixed
+    background-size: cover
+    opacity: 0.2
+    animation: animateFon 30s linear infinite

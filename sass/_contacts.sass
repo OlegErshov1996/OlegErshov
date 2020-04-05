@@ -4,7 +4,7 @@
   background: black
   position: relative
   overflow: hidden
-  padding: 30px 0
+  padding: 30px 30px
 
   &:after
     content: ""
@@ -23,7 +23,7 @@
     position: relative
     z-index: 1
     width: max-content
-    margin: 0 auto 0
+    margin: 0 auto 40px
     font-size: 45px
     color: $orange
     letter-spacing: 4px
@@ -74,6 +74,7 @@
     z-index: 2
     display: grid
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
+    margin-top: 20px
 
     .wrap-input
       display: flex
@@ -192,19 +193,22 @@ $timing: 0.3s
   -webkit-transform: scale($size)
 
 .social-container
-  width: 700px
+  width: auto
   margin: 50px auto 0
   text-align: center
 
   .social-icons
-    display: flex
-    justify-content: space-between
-    padding: 0
+    display: grid
+    grid-template-columns: repeat(auto-fit, minmax(50px, auto))
+    grid-auto-flow: row
+    grid-gap: 40px
+    justify-items: center
+    justify-content: center
+    align-items: center
     list-style: none
     margin: 1em
 
     li
-      display: inline-block
       position: relative
       font-size: 1.2em
       z-index: 2
