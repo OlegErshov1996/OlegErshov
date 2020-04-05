@@ -239,6 +239,113 @@
       z-index: 15;
       border-right: 3px solid #ff7043; }
 
+.skills_container {
+  position: relative;
+  width: 960px;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  grid-gap: 20px; }
+  .skills_container .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 220px;
+    height: 350px;
+    border-radius: 10px;
+    background: #293844;
+    background: -moz-linear-gradient(90deg, rgba(41, 56, 68, 0.9) 0%, rgba(255, 112, 64, 0.9) 50%, rgba(41, 56, 68, 0.9) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(41, 56, 68, 0.9) 0%, rgba(255, 112, 64, 0.9) 50%, rgba(41, 56, 68, 0.9) 100%);
+    background: linear-gradient(90deg, rgba(41, 56, 68, 0.9) 0%, rgba(255, 112, 64, 0.9) 50%, rgba(41, 56, 68, 0.9) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#293844",endColorstr="#293844",GradientType=1);
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s ease; }
+    .skills_container .card:hover {
+      transform: translatey(-5px);
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); }
+      .skills_container .card:hover .number h2 {
+        color: #fff;
+        font-size: 50px; }
+        .skills_container .card:hover .number h2 span {
+          color: #fff; }
+      .skills_container .card:hover .number .icon_skills:hover {
+        transform: translatey(-5px);
+        transition: 0.5s ease; }
+      .skills_container .card:hover h3 {
+        color: #fff; }
+    .skills_container .card:before {
+      content: "";
+      position: absolute;
+      top: 10px;
+      left: -90px;
+      transform: rotate(-25deg);
+      width: 100%;
+      height: 500px;
+      background-color: rgba(255, 255, 255, 0.05);
+      pointer-events: none; }
+  .skills_container .percent {
+    position: relative;
+    bottom: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 10px #111;
+    background-color: #293844;
+    z-index: 1; }
+    .skills_container .percent h3 {
+      margin-top: 30px;
+      color: #293844;
+      font-size: 22px;
+      transition: 0.5s ease; }
+    .skills_container .percent .number {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      left: 5px;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%; }
+      .skills_container .percent .number h2 {
+        color: #111;
+        font-size: 44px;
+        transition: 0.5s ease; }
+        .skills_container .percent .number h2 span {
+          color: #111;
+          padding-left: 3px;
+          font-size: 24px;
+          transition: 0.5s ease; }
+    .skills_container .percent svg {
+      position: relative;
+      width: 150px;
+      height: 150px;
+      transform: rotate(-85deg); }
+      .skills_container .percent svg circle {
+        width: 100%;
+        height: 100%;
+        fill: none;
+        stroke: #111919;
+        stroke-width: 10;
+        stroke-linecap: round;
+        transform: translate(5px, 5px); }
+        .skills_container .percent svg circle:nth-child(2) {
+          stroke-dasharray: 440;
+          stroke-dashoffset: 440; }
+  .skills_container .card:nth-child(1) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440px - (440px * 90) / 100);
+    stroke: rgba(1, 81, 145, 0.9); }
+  .skills_container .card:nth-child(2) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440px - (440px * 40) / 100);
+    stroke: rgba(1, 81, 145, 0.9); }
+  .skills_container .card:nth-child(3) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440px - (440px * 60) / 100);
+    stroke: rgba(1, 81, 145, 0.9); }
+
 .banner {
   width: 100%;
   height: 100vh;
@@ -597,7 +704,6 @@ h6 {
     margin: 1em; }
     .social-container .social-icons li {
       display: inline-block;
-      margin: 0.15em;
       position: relative;
       font-size: 1.2em;
       z-index: 2; }
