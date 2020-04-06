@@ -47,6 +47,7 @@
 @media (min-width: 1000px)
   .mobile__menu_button
     display: none
+
   .mobile_menu_wrap
     display: none
 
@@ -62,6 +63,7 @@
     top: 20px
     right: 20px
     z-index: 5
+
   .mobile__menu_line
     display: block
     height: 2px
@@ -90,6 +92,7 @@
       position: absolute
       background-color: $primary
       transition: all 0.2s
+
   .mobile__menu_button_active
     .mobile__menu_line
       background-color: transparent
@@ -101,6 +104,7 @@
       &::after
         transform: rotate(-135deg)
         margin-top: 0
+
   .mobile_menu_wrap
     display: flex
     justify-content: center
@@ -134,8 +138,10 @@
           &:hover
             background-color: rgba(216, 216, 216, 0.2)
             transition: background-color 0.2s
+
   .mobile_menu_wrap_active
     left: 0
+
   .menu
     display: none
 
