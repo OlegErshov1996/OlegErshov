@@ -61,13 +61,14 @@
 
 
 
-.slider-container
+.slider-container_desktop
   position: relative
   overflow: hidden
-  width: 100vw
-  height: 100vh
+  height: 80vh
+  margin-top: 70px
+  border-radius: 10px
 
-  .left-slide
+  .left-slide_desktop
     height: 100%
     position: absolute
     top: 0
@@ -75,7 +76,7 @@
     width: 35%
     transition: transform .5s ease-in-out
 
-    > .slider-color
+    .slider-color
       align-items: center
       color: #fff
       display: flex
@@ -83,13 +84,20 @@
       justify-content: center
       height: 100%
       width: 100%
+      padding: 0 50px 0
 
       .text_h3
-        font-size: 40px
-        margin-bottom: 10px
-        margin-top: -30px
+        font-size: 35px
+        margin-bottom: 20px
+        color: $grey-text
+        text-align: center
 
-  .right-slide
+      .text_p
+        font-size: 20px
+        color: $grey-text
+        text-align: center
+
+  .right-slide_desktop
     height: 100%
     position: absolute
     top: 0
@@ -97,43 +105,59 @@
     width: 65%
     transition: transform .5s ease-in-out
 
-    > .slider-image
-      background-repeat: no-repeat
-      background-size: cover
-      background-position: center center
+    .slider-image_desktop
       height: 100%
       width: 100%
+
+    .slider-image-1
+      background: url("../img/project_1.jpg") center center no-repeat
+      background-size: cover
+
+    .slider-image-2
+      background: url("../img/71.jpg") center center no-repeat
+      background-size: cover
+
+    .slider-image-3
+      background: url("../img/102.jpg") center center no-repeat
+      background-size: cover
+
+    .slider-image-4
+      background: url("../img/project_2.jpg") center center no-repeat
+      background-size: cover
 
   .action-buttons
     .slider-button
       position: absolute
       left: 35%
       top: 50%
-      z-index: 100
-      background-color: #fff
+      z-index: 1
+      background-color: $grey-text
       border: 0
-      color: #aaa
+      color: $gray
       cursor: pointer
       font-size: 16px
       padding: 15px
-      transition: color .2s ease-in
+      transition: background-color .5s ease-in-out
+
+      .fa
+        transition: color .5s ease-in-out
 
       &:hover
-        color: blue
-        background-color: rgba(104, 25, 87, 0.5)
-        transition: 0.5s
+        color: $primary
+        background-color: rgba(216, 216, 216, 0.5)
+        transition: .5s ease-in-out
 
       &:focus
         outline: 0
 
-    .down-button
-      border-top-left-radius: 5px
-      border-bottom-left-radius: 5px
-      transform: translateX(-100%)
+    .down-button_desktop
+      border-top-left-radius: 10px
+      border-bottom-left-radius: 10px
+      transform: translateX(-98%)
 
-    .up-button
-      border-top-right-radius: 5px
-      border-bottom-right-radius: 5px
+    .up-button_desktop
+      border-top-right-radius: 10px
+      border-bottom-right-radius: 10px
       transform: translateY(-100%)
 
 .wrap-color-1
@@ -148,17 +172,99 @@
 .wrap-color-4
   background-color: $green
 
-.slider-image-1
-  background: url("/img/project_1.jpg")
+@media (max-width: 1000px)
+  .slider-container_table
+    position: relative
+    overflow: hidden
+    height: 50vh
+    margin-top: 70px
+    border-radius: 10px
+    .left-slide_table
+      height: 100%
+      position: absolute
+      top: 0
+      left: 0
+      width: 35%
+      transition: transform .5s ease-in-out
+      .slider-color
+        align-items: center
+        color: #fff
+        display: flex
+        flex-direction: column
+        justify-content: center
+        height: 100%
+        width: 100%
+        padding: 0 50px 0
+        .text_h3
+          font-size: 35px
+          margin-bottom: 20px
+          color: $grey-text
+          text-align: center
+        .text_p
+          font-size: 20px
+          color: $grey-text
+          text-align: center
 
-.slider-image-2
-  background: url("/img/71.jpg")
+    .right-slide_table
+      height: 100%
+      position: absolute
+      top: 0
+      left: 35%
+      width: 65%
+      transition: transform .5s ease-in-out
+      .slider-image_table
+        height: 100%
+        width: 100%
+      .slider-image-1
+        background: url("../img/project_1.jpg") center center no-repeat
+        background-size: cover
+      .slider-image-2
+        background: url("../img/71.jpg") center center no-repeat
+        background-size: cover
+      .slider-image-3
+        background: url("../img/102.jpg") center center no-repeat
+        background-size: cover
+      .slider-image-4
+        background: url("../img/project_2.jpg") center center no-repeat
+        background-size: cover
+    .action-buttons
+      .slider-button
+        position: absolute
+        left: 35%
+        top: 50%
+        z-index: 1
+        background-color: $grey-text
+        border: 0
+        color: $gray
+        cursor: pointer
+        font-size: 16px
+        padding: 15px
+        transition: background-color .5s ease-in-out
+        .fa
+          transition: color .5s ease-in-out
+        &:hover
+          color: $primary
+          background-color: rgba(216, 216, 216, 0.5)
+          transition: .5s ease-in-out
+        &:focus
+          outline: 0
+      .down-button
+        border-top-left-radius: 10px
+        border-bottom-left-radius: 10px
+        transform: translateX(-98%)
+      .up-button
+        border-top-right-radius: 10px
+        border-bottom-right-radius: 10px
+        transform: translateY(-100%)
+  .wrap-color-1
+    background-color: $orange
+  .wrap-color-2
+    background-color: $blue
+  .wrap-color-3
+    background-color: $gray
+  .wrap-color-4
+    background-color: $green
 
-.slider-image-3
-  background: url("/img/102.jpg")
-
-.slider-image-4
-  background: url("/img/project_2.jpg")
 
 @media (max-width: 420px)
   .text_h2
