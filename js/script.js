@@ -1,16 +1,16 @@
-/* ---------- Mobile Menu ---------- */
+/* ========================= Mobile Menu =========================== */
 
 document.addEventListener("DOMContentLoaded", function() {
-    let link = document.querySelector('.mobile__menu_button');
+    let link = document.querySelector('.mobile_menu_button');
     let menu = document.querySelector('.mobile_menu_wrap');
 
     link.addEventListener('click', function() {
-        link.classList.toggle('mobile__menu_button_active');
+        link.classList.toggle('mobile_menu_button_active');
         menu.classList.toggle('mobile_menu_wrap_active');
     });
 });
 
-/* ---------- Progress Page Bar ---------- */
+/* ========================= Progress Page Bar ======================== */
 
 window.onscroll = function () {
     pageScroll ();
