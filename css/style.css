@@ -352,12 +352,15 @@ h6 {
   .about_me_wrap .text-hobby:before {
     background: url("../img/svg/browser_text_orange.svg") center 0 no-repeat; }
   .about_me_wrap .wrap-information {
+    position: relative;
+    width: auto;
+    margin: 80px auto 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
-    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(370px, auto));
     grid-auto-flow: row;
-    grid-gap: 20px; }
+    grid-gap: 40px;
+    justify-items: center;
+    align-items: center; }
     .about_me_wrap .wrap-information .wrap-photo {
       display: flex;
       justify-self: flex-start;
@@ -432,7 +435,7 @@ h6 {
         width: 100%;
         height: 100%;
         box-shadow: 0 0 30px #000000;
-        padding: 10px;
+        padding: 20px 10px;
         border-radius: 10px;
         transition: 0.5s ease; }
         .about_me_wrap .wrap-information .wrap-content-left .learning:hover {
@@ -445,7 +448,7 @@ h6 {
         flex-direction: column;
         justify-content: flex-start;
         box-shadow: 0 0 30px #000000;
-        padding: 10px;
+        padding: 20px 10px;
         border-radius: 10px;
         transition: 0.5s ease; }
         .about_me_wrap .wrap-information .wrap-content-left .hobby:hover {
@@ -466,7 +469,7 @@ h6 {
         width: 100%;
         height: 100%;
         box-shadow: 0 0 30px #000000;
-        padding: 10px;
+        padding: 20px 10px;
         border-radius: 10px;
         transition: 0.5s ease; }
         .about_me_wrap .wrap-information .wrap-content-right .career:hover {
@@ -487,25 +490,122 @@ h6 {
     border-bottom: 3px solid;
     border-radius: 3px; }
 
+@media screen and (max-width: 860px) {
+  .wrap-photo {
+    width: 350px !important;
+    height: 400px !important;
+    margin: 0 20px;
+    justify-self: center !important; }
+    .wrap-photo .photo {
+      width: 350px !important;
+      height: 400px !important; }
+
+  .wrap-content-left, .wrap-content-right {
+    max-width: min-content; }
+
+  .hobby {
+    margin-top: 20px; } }
 @media (max-width: 480px) {
-  .about_me_wrap .text_h2 {
+  .wrap-photo {
+    width: 300px !important;
+    height: 400px !important;
+    margin: 0 !important;
+    justify-self: center !important; }
+    .wrap-photo .photo {
+      width: 300px !important;
+      height: 400px !important; }
+
+  .wrap-information {
+    grid-template-columns: repeat(auto-fit, minmax(340px, auto)) !important; }
+
+  .wrap-content-left, .wrap-content-right {
+    min-width: 300px !important;
+    padding: 0 !important; }
+
+  .text_h2 {
     font-size: 40px; }
-  .about_me_wrap .text_h3 {
-    font-size: 30px; }
-  .about_me_wrap .text_p {
-    font-size: 20px; }
-  .about_me_wrap .date_p {
-    font-size: 20px; } }
+
+  .text_h3 {
+    font-size: 20px !important; }
+    .text_h3:after {
+      content: "";
+      width: 40px !important;
+      right: -50px !important; }
+    .text_h3:before {
+      content: "";
+      width: 25px !important;
+      height: 25px !important;
+      left: -35px !important; }
+
+  .text_p {
+    font-size: 17px !important; }
+
+  .date_p {
+    font-size: 16px !important;
+    padding: 2px 2px !important; } }
+@media (max-width: 420px) {
+  .wrap-photo {
+    width: 280px !important;
+    height: 400px !important;
+    margin: 0 !important;
+    justify-self: center !important; }
+    .wrap-photo .photo {
+      width: 280px !important;
+      height: 400px !important; }
+
+  .wrap-information {
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto)) !important; }
+
+  .wrap-content-left, .wrap-content-right {
+    min-width: 280px !important;
+    padding: 0 !important; }
+
+  .date_p {
+    font-size: 15px !important; }
+
+  .text_p {
+    font-size: 15px !important; } }
 @media (max-width: 360px) {
+  .container {
+    min-width: 300px !important; }
+
+  .wrap-photo {
+    width: 250px !important;
+    height: 400px !important;
+    margin: 0 !important;
+    justify-self: center !important; }
+    .wrap-photo .photo {
+      width: 250px !important;
+      height: 400px !important; }
+
+  .wrap-information {
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto)) !important; }
+
+  .wrap-content-left, .wrap-content-right {
+    min-width: 250px !important;
+    padding: 0 !important; }
+
   .about_me_wrap {
-    padding: 30px 10px; }
+    padding: 30px 5px; }
 
   .about_me_wrap .text_h3 {
-    font-size: 25px; }
+    font-size: 18px; }
   .about_me_wrap .text_p {
-    font-size: 20px; }
+    font-size: 16px; }
   .about_me_wrap .date_p {
-    font-size: 18px; } }
+    font-size: 14px !important; }
+
+  .text_h3 {
+    font-size: 18px !important; }
+    .text_h3:after {
+      content: "";
+      width: 30px !important;
+      right: -40px !important; }
+    .text_h3:before {
+      content: "";
+      width: 22px !important;
+      height: 22px !important;
+      left: -32px !important; } }
 .skills_wrap {
   width: 100%;
   height: auto;
