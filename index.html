@@ -71,17 +71,16 @@
     <section class="banner" id="banner">
         <div class="banner__info">
             <h1 class="banner__title">
-                Здравствуйте! Меня зовут Олег и я Junior Frontend Developer
+                Здравствуйте! Меня зовут Олег и я Front-end Developer
             </h1>
         </div>
     </section>
 </div>
-
 <div class="container about_me_wrap" id="about_me">
     <h2 class="text_h2">О себе</h2>
     <div class="wrap-information m_t_40 m_b_40">
         <div class="wrap-photo scroll-stop-0">
-            <img class="photo"/>
+            <div class="photo"></div>
         </div>
         <div class="wrap-content-left">
             <div class="learning scroll-stop-1">
@@ -113,7 +112,6 @@
 </div>
 <div class="container skills_wrap" id="skills">
     <h2 class="text_h2">Навыки</h2>
-
     <div class="skills_container">
         <div class="card scroll-stop-01">
             <div class="box">
@@ -341,11 +339,9 @@
             </div>
         </div>
     </div>
-
 </div>
 <div class="container services_wrap" id="services">
     <h2 class="text_h2">Портфолио</h2>
-
     <div class="slider-container_desktop">
         <div class="left-slide">
             <div class="slider-color wrap-color-1">
@@ -359,21 +355,21 @@
                 <h3 class="text_h3">Автосалон Audi</h3>
                 <p class="text_p">В процессе разработки</p>
                 <div class="wrap-link">
-                    <a class="link" target="_blank">Открыть</a>
+                    <a class="link" target="_blank" href="/">Открыть</a>
                 </div>
             </div>
             <div class="slider-color wrap-color-3">
                 <h3 class="text_h3">CRM-система</h3>
                 <p class="text_p">В процессе разработки</p>
                 <div class="wrap-link">
-                    <a class="link" target="_blank">Открыть</a>
+                    <a class="link" target="_blank" href="/">Открыть</a>
                 </div>
             </div>
             <div class="slider-color wrap-color-4">
                 <h3 class="text_h3">ToDo приложение</h3>
                 <p class="text_p">Реализовано на <br> NodeJS, Express, MongoDB</p>
                 <div class="wrap-link">
-                    <a class="link" target="_blank">Открыть</a>
+                    <a class="link" target="_blank" href="/">Открыть</a>
                 </div>
             </div>
         </div>
@@ -383,7 +379,6 @@
             <div class="slider-image-2 slider-image"></div>
             <div class="slider-image-1 slider-image"></div>
         </div>
-
         <div class="action-buttons">
             <button class="down-button slider-button">
                 <i class="fa fa-arrow-down"></i>
@@ -393,11 +388,10 @@
             </button>
         </div>
     </div>
-
     <div class="slider-container_mobile">
         <div class="project">
             <div class="wrap-img">
-                <img class="image_mobile image_mobile-1" />
+                <div class="image_mobile image_mobile-1"></div>
             </div>
             <div class="content-project">
                 <h3 class="text-h3">Строительная компания SPB-House</h3>
@@ -407,7 +401,7 @@
         </div>
         <div class="project">
             <div class="wrap-img">
-                <img class="image_mobile image_mobile-2" />
+                <div class="image_mobile image_mobile-2"></div>
             </div>
             <div class="content-project">
                 <h3 class="text-h3">Автосалон Audi</h3>
@@ -417,7 +411,7 @@
         </div>
         <div class="project">
             <div class="wrap-img">
-                <img class="image_mobile image_mobile-3" />
+                <div class="image_mobile image_mobile-3"></div>
             </div>
             <div class="content-project">
                 <h3 class="text-h3">CRM-система</h3>
@@ -427,7 +421,7 @@
         </div>
         <div class="project">
             <div class="wrap-img">
-                <img class="image_mobile image_mobile-4" />
+                <div class="image_mobile image_mobile-4"></div>
             </div>
             <div class="content-project">
                 <h3 class="text-h3">ToDo приложение</h3>
@@ -436,22 +430,20 @@
             </div>
         </div>
     </div>
-
-
 </div>
 <div class="container contacts_wrap" id="contacts">
     <h2 class="text_h2">Контакты</h2>
     <div class="box-contacts">
         <div class="wrap-input">
             <div class="box-input">
-                <input class="input-text" type="text" name="" required="required">
+                <input class="input-text" type="text" name="input" required>
                 <span class="text">Имя</span>
                 <span class="line"></span>
             </div>
         </div>
         <div class="wrap-input">
             <div class="box-input">
-                <input class="input-text" type="text" name="" required="required">
+                <input class="input-text" type="text" name="input" required>
                 <span class="text">Фамилия</span>
                 <span class="line"></span>
             </div>
@@ -460,14 +452,14 @@
     <div class="box-contacts">
         <div class="wrap-input">
             <div class="box-input">
-                <input class="input-text" type="text" name="" required="required">
+                <input class="input-text" type="email" name="email" required>
                 <span class="text">Email</span>
                 <span class="line"></span>
             </div>
         </div>
         <div class="wrap-input">
             <div class="box-input">
-                <input class="input-text" type="text" name="" required="required">
+                <input class="input-text" id="tel" type="tel" name="tel" required>
                 <span class="text">Телефон</span>
                 <span class="line"></span>
             </div>
@@ -503,5 +495,6 @@
 <script src="js/slider.js"></script>
 <script src="js/mobile_menu.js"></script>
 <script src="js/scroll.js"></script>
+<script src="js/validation_phone.js"></script>
 </body>
 </html>
