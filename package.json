@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Oleg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlegErshov1996/OlegErshov.git"
+  },
+  "author": "Oleg Ershov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlegErshov1996/OlegErshov/issues"
+  },
+  "homepage": "https://github.com/OlegErshov1996/OlegErshov#readme",
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
