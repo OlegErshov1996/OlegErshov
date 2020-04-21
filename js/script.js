@@ -1,3 +1,9 @@
+import './text_animate'
+import './mobile_menu'
+import './scroll'
+import './slider'
+import './validation_phone'
+
 /* ========================= Mobile Menu =========================== */
 
 document.addEventListener("DOMContentLoaded", function() {
