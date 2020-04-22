@@ -3,6 +3,7 @@ import './mobile_menu'
 import './scroll'
 import './slider'
 import './validation_phone'
+import css from '../css/style.css'
 
 /* ========================= Mobile Menu =========================== */
 
