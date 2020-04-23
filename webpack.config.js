@@ -28,11 +28,29 @@ module.exports = {
         rules: [
             {
                 test: /\.css$/,
-                use: [MiniCssExtractPlugin.loader, 'css-loader']
+                use: [
+                    'style-loader',
+                    MiniCssExtractPlugin.loader,
+                    {
+                        loader: 'css-loader'
+                    }, {
+                        loader: 'postcss-loader',
+                        options: {sourceMap: true, config: {path: './js/postcss.config.js'}}
+                    }]
             },
             {
                 test: /\.sass$/,
-                use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
+                use: [
+                    'style-loader',
+                    MiniCssExtractPlugin.loader,
+                    {
+                        loader: 'css-loader'
+                    }, {
+                        loader: 'postcss-loader',
+                        options: {sourceMap: true, config: {path: './js/postcss.config.js'}}
+                    }, {
+                        loader: 'sass-loader'
+                    }]
             },
             {
                 test: /\.(png||jpg||svg||gif)$/,
