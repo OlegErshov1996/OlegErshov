@@ -4,7 +4,7 @@ import './scroll'
 import './slider'
 import './validation_phone'
 import '../css/style.css'
-import '../sass/style.sass'
+// import '../sass/style.sass'
 
 /* ========================= Mobile Menu =========================== */
 

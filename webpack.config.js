@@ -1,4 +1,5 @@
 const path = require('path');
+const HTMLWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
@@ -6,7 +7,8 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 module.exports = {
     entry: './js/script.js',
     output: {
-        filename: 'bundle.js',
+        filename: '[name].[contenthash].js',
+        // filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist')
     },
     optimization: {
@@ -20,6 +22,7 @@ module.exports = {
         port: 4200
     },
     plugins: [
+        new HTMLWebpackPlugin(),
         new MiniCssExtractPlugin({
             filename: 'style.css'
         })
