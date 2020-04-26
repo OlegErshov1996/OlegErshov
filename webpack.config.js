@@ -3,12 +3,13 @@ const HTMLWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 
 module.exports = {
+    context: path.resolve(__dirname, 'src'),
     entry: './js/script.js',
     output: {
         filename: '[name].[contenthash].js',
-        // filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist')
     },
     optimization: {
@@ -22,9 +23,12 @@ module.exports = {
         port: 4200
     },
     plugins: [
-        new HTMLWebpackPlugin(),
+        new HTMLWebpackPlugin({
+            template: './index.html'
+        }),
+        new CleanWebpackPlugin(),
         new MiniCssExtractPlugin({
-            filename: 'style.css'
+            filename: './style.css'
         })
     ],
     module: {
@@ -38,7 +42,7 @@ module.exports = {
                         loader: 'css-loader'
                     }, {
                         loader: 'postcss-loader',
-                        options: {sourceMap: true, config: {path: './js/postcss.config.js'}}
+                        options: {sourceMap: true, config: {path: './src/js/postcss.config.js'}}
                     }]
             },
             {
@@ -50,7 +54,7 @@ module.exports = {
                         loader: 'css-loader'
                     }, {
                         loader: 'postcss-loader',
-                        options: {sourceMap: true, config: {path: './js/postcss.config.js'}}
+                        options: {sourceMap: true, config: {path: './src/js/postcss.config.js'}}
                     }, {
                         loader: 'sass-loader'
                     }]
