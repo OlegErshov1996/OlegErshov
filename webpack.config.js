@@ -57,7 +57,7 @@ module.exports = {
                 to: path.resolve(__dirname, 'dist')
             },
             {
-                from: path.resolve(__dirname, 'src/img'),
+                from: path.resolve(__dirname, 'src'),
                 to: path.resolve(__dirname, 'dist')
             }
         ]),

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6553e19-a729-402a-bca4-c19a6aa88405" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_about_me.sassc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_additional_styles.sassc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_banner.sassc" beforeDir="false" />
@@ -21,7 +20,19 @@
       <change beforePath="$PROJECT_DIR$/css/normalize.min.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/0a52ad7821f34ff4b703c01beb747451.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/5ba4f0f11ffa8ad7996ec8b5d525e382.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/6e4dae03816a92d984cfa8cfb5298bcb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/7d232393380dd1aec7aaaa0a8e02ed99.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/889f363117b9dd96808555107cd4662d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/8f4e4108b9ce45e3344369e907b54dfd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/9f4544fb61e96c9ec95c96be66c9f09b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bf79f7ce6f712cf5966305fba679272a.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/c2e3803f98edcc75e66d9c2ed9f3b591.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/c3ad675aec1e7427940924de46f827ea.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/d6160deb3eae3b530c07c69a3275f799.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/f6744941b63e6c683d48718af932c767.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.c9c7c3fb929bb0a91935.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fonts/ElMessiri-Bold.ttf" beforeDir="false" />
@@ -153,8 +164,6 @@
       <change beforePath="$PROJECT_DIR$/js/slider.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js/text_animate.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js/validation_phone.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_about_me.sass" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_additional_styles.sass" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_banner.sass" beforeDir="false" />
@@ -167,9 +176,6 @@
       <change beforePath="$PROJECT_DIR$/sass/_skills.sass" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_variables.sass" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/style.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -180,11 +186,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="59" column="54" lean-forward="true" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+              <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -202,7 +208,7 @@
         <entry file="file://$PROJECT_DIR$/src/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
                 <element signature="e#194#219#0" expanded="true" />
@@ -211,11 +217,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sass/style.sass">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="48">
-              <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -228,8 +234,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="89" />
+            <state relative-caret-position="327">
+              <caret line="157" column="22" lean-forward="true" selection-start-line="157" selection-start-column="22" selection-end-line="157" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -284,10 +290,10 @@
         <option value="$PROJECT_DIR$/src/sass/_about_me.sass" />
         <option value="$PROJECT_DIR$/src/sass/_contacts.sass" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/js/script.js" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/sass/style.sass" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
       </list>
     </option>
   </component>
@@ -313,11 +319,6 @@
             <path>
               <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -330,32 +331,7 @@
               <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="favicon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -431,12 +407,12 @@
       <workItem from="1587203059937" duration="11240000" />
       <workItem from="1587415934503" duration="649000" />
       <workItem from="1587476022524" duration="25553000" />
-      <workItem from="1587799934944" duration="35740000" />
+      <workItem from="1587799934944" duration="36120000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="491529000" />
+    <option name="totallyTimeSpent" value="491909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -700,13 +676,6 @@
     <entry file="file://$PROJECT_DIR$/src/js/postcss.config.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-574">
@@ -717,7 +686,7 @@
     <entry file="file://$PROJECT_DIR$/src/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
             <element signature="e#194#219#0" expanded="true" />
@@ -725,17 +694,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="59" column="54" lean-forward="true" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/style.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
-          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="157" column="22" lean-forward="true" selection-start-line="157" selection-start-column="22" selection-end-line="157" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
         </state>
       </provider>
     </entry>
