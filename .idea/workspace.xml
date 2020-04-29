@@ -3,170 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f6553e19-a729-402a-bca4-c19a6aa88405" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_about_me.sassc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_additional_styles.sassc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_banner.sassc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_contacts.sassc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_fonts.sassc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_footer.sassc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_header.sassc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_main.sassc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_menu.sassc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_portfolio.sassc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_services.sassc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_skills.sassc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_variables.sassc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/style.sassc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/normalize.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.c9c7c3fb929bb0a91935.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ElMessiri-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ElMessiri-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ElMessiri-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ElMessiri-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Philosopher-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Philosopher-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Philosopher-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Philosopher-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/102.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/71.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/android-chrome-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/android-chrome-512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/mstile-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/mstile-70x70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/safari-pinned-tab.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/site.webmanifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/photo/photo_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/project_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/project_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Facebook_48.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Facebook_96.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Favicon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Favicon_1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Git_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Git_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Instagram_48.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Instagram_96.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/JavaScript_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/JavaScript_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Jira_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Jira_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Logo1_Oleg_Ershov.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Logo2_Oleg_Ershov.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Logo_Oleg_Ershov.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/ManUnited_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/ManUnited_48.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/ManUnited_96.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/MongoDB_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/MongoDB_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/NodeJS_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/NodeJS_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Oleg_Ershov_logo_orange.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Oleg_Ershov_logo_orange_1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/React_Native_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/React_Native_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Sass_1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Sass_288.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Skype_48.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Skype_96.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Slack_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Slack_48.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Slack_96.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Telegram_48.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Telegram_96.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/VK_48.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/VK_96.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/VueJS_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/VueJS_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Whatsapp_48.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/Whatsapp_96.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/adobe-illustrator_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/adobe-illustrator_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/adobe-photoshop_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/adobe-photoshop_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/audi_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/audi_48.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/audi_96.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/babel_1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/bitbucket_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/bitbucket_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/browser_0.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/browser_1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/browser_2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/browser_3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/browser_4.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/browser_5.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/browser_chel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/browser_chel_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/browser_dom.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/browser_dom_orange.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/browser_js.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/browser_lupa.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/browser_lupa_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/browser_teg.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/browser_teg_orange.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/browser_text_orange.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/computer.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/css-3_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/css-3_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/dot.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/dot_1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/figma_1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/github_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/github_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/gitlab_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/gitlab_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/graphql.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/graphql_icon_1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/html-5_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/html-5_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/iphone.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/laptop.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/nodejs-1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/npm_144.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/npm_240.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/react-1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/react_icon_1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/react_icon_2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/tv.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/typescript.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/typescript_1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/webpack_1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/svg/zeplin.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/mobile_menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/postcss.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/text_animate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/validation_phone.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_about_me.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_additional_styles.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_banner.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_contacts.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_fonts.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_header.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_main.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_menu.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_portfolio.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_skills.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_variables.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/style.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -179,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
+            <state relative-caret-position="355">
+              <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -307,6 +144,11 @@
               <item name="OlegErshov" type="b2602c69:ProjectViewProjectNode" />
               <item name="OlegErshov" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OlegErshov" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OlegErshov" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -381,18 +223,18 @@
       <workItem from="1587415934503" duration="649000" />
       <workItem from="1587476022524" duration="25553000" />
       <workItem from="1587799934944" duration="36120000" />
-      <workItem from="1588095889371" duration="1646000" />
+      <workItem from="1588095889371" duration="5160000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="493555000" />
+    <option name="totallyTimeSpent" value="497069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
       <window_info id="npm" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16966581" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16966581" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -405,7 +247,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33472803" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2761506" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -639,8 +481,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
+        <state relative-caret-position="355">
+          <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
         </state>
       </provider>
     </entry>
