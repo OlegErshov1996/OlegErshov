@@ -2,8 +2,184 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6553e19-a729-402a-bca4-c19a6aa88405" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_about_me.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_additional_styles.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_banner.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_contacts.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_fonts.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_footer.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_header.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_main.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_menu.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_portfolio.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_services.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_skills.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/_variables.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/.sass-cache/f4086313316f4db94d88841498ddd72ce323a21a/style.sassc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/0a52ad7821f34ff4b703c01beb747451.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/0ecc66161f936c1b2a26b8e7143c3089.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/5ba4f0f11ffa8ad7996ec8b5d525e382.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/6e4dae03816a92d984cfa8cfb5298bcb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/7d232393380dd1aec7aaaa0a8e02ed99.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/889f363117b9dd96808555107cd4662d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/8f4e4108b9ce45e3344369e907b54dfd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/9f4544fb61e96c9ec95c96be66c9f09b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bf79f7ce6f712cf5966305fba679272a.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/c2e3803f98edcc75e66d9c2ed9f3b591.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/c3ad675aec1e7427940924de46f827ea.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/normalize.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/d6160deb3eae3b530c07c69a3275f799.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/f6744941b63e6c683d48718af932c767.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/ElMessiri-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/ElMessiri-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/ElMessiri-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/ElMessiri-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/Philosopher-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/Philosopher-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/Philosopher-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/Philosopher-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/102.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/favicon/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/favicon/android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/favicon/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/favicon/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/favicon/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/favicon/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/favicon/mstile-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/favicon/mstile-70x70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/favicon/safari-pinned-tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/favicon/site.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/photo/photo_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/project_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/project_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/Facebook_48.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/Facebook_96.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/Favicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/Favicon_1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/Git_144.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/Git_240.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/Instagram_48.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/Instagram_96.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/JavaScript_144.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/JavaScript_240.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/Jira_144.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/Jira_240.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/Logo1_Oleg_Ershov.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/Logo2_Oleg_Ershov.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/Logo_Oleg_Ershov.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/ManUnited_144.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/ManUnited_48.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/ManUnited_96.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/MongoDB_144.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/MongoDB_240.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/NodeJS_144.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/NodeJS_240.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/Oleg_Ershov_logo_orange.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/Oleg_Ershov_logo_orange_1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/React_Native_144.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/React_Native_240.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/Sass_1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/Sass_288.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/Skype_48.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/Skype_96.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/Slack_144.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/Slack_48.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/Slack_96.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/Telegram_48.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/Telegram_96.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/VK_48.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/VK_96.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/VueJS_144.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/VueJS_240.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/Whatsapp_48.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/Whatsapp_96.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/adobe-illustrator_144.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/adobe-illustrator_240.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/adobe-photoshop_144.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/adobe-photoshop_240.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/audi_144.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/audi_48.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/audi_96.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/babel_1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/bitbucket_144.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/bitbucket_240.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/browser_0.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/browser_1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/browser_2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/browser_3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/browser_4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/browser_5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/browser_chel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/browser_chel_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/browser_dom.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/browser_dom_orange.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/browser_js.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/browser_lupa.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/browser_lupa_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/browser_teg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/browser_teg_orange.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/browser_text_orange.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/computer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/css-3_144.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/css-3_240.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/dot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/dot_1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/figma_1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/github_144.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/github_240.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/gitlab_144.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/gitlab_240.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/graphql.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/graphql_icon_1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/html-5_144.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/html-5_240.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/iphone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/laptop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/nodejs-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/npm_144.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/npm_240.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/react-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/react_icon_1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/react_icon_2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/tv.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/typescript.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/typescript_1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/webpack_1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/svg/zeplin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/mobile_menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/scroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/text_animate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/validation_phone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.ec66c9ee3b3d9d756842.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.ec66c9ee3b3d9d756842.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sass/_about_me.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sass/_additional_styles.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sass/_banner.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sass/_contacts.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sass/_fonts.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sass/_header.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sass/_main.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sass/_menu.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sass/_portfolio.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sass/_skills.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sass/_variables.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sass/style.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/_about_me.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_about_me.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,64 +190,57 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="118" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1032">
+              <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sass/_about_me.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="207" column="29" selection-start-line="207" selection-start-column="29" selection-end-line="207" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="53" column="74" selection-start-line="53" selection-start-column="74" selection-end-line="53" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/mobile_menu.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            <state relative-caret-position="336">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
                 <element signature="e#194#219#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sass/style.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/postcss.config.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="489" column="6" selection-start-line="489" selection-start-column="6" selection-end-line="489" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/text_animate.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/slider.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -86,9 +255,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -138,13 +311,14 @@
         <option value="$PROJECT_DIR$/js/postcss.config.js" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/dist/index.html" />
-        <option value="$PROJECT_DIR$/src/sass/_about_me.sass" />
         <option value="$PROJECT_DIR$/src/sass/_contacts.sass" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/js/script.js" />
         <option value="$PROJECT_DIR$/src/sass/style.sass" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/sass/_about_me.sass" />
+        <option value="$PROJECT_DIR$/src/js/script.js" />
       </list>
     </option>
   </component>
@@ -160,7 +334,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,16 +341,28 @@
               <item name="OlegErshov" type="b2602c69:ProjectViewProjectNode" />
               <item name="OlegErshov" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OlegErshov" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OlegErshov" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OlegErshov" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OlegErshov" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/insky-master/insky-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -243,18 +428,18 @@
       <workItem from="1587476022524" duration="25553000" />
       <workItem from="1587799934944" duration="36120000" />
       <workItem from="1588095889371" duration="6493000" />
-      <workItem from="1588277264982" duration="4551000" />
+      <workItem from="1588277264982" duration="7164000" />
+      <workItem from="1588448263500" duration="6408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="502953000" />
+    <option name="totallyTimeSpent" value="511974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17159383" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17352185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -268,7 +453,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27475592" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27475592" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -347,40 +532,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/_about_me.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="201" column="27" selection-start-line="201" selection-start-column="27" selection-end-line="201" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/_fonts.sass">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <element signature="e#194#219#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/style.sass">
       <provider selected="true" editor-type-id="text-editor">
@@ -391,23 +544,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/postcss.config.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="489" column="6" selection-start-line="489" selection-start-column="6" selection-end-line="489" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/text_animate.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -432,7 +568,63 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/style.css">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/_about_me.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="207" column="29" selection-start-line="207" selection-start-column="29" selection-end-line="207" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="66" lean-forward="true" selection-start-column="66" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1032">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="53" column="74" selection-start-line="53" selection-start-column="74" selection-end-line="53" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/mobile_menu.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#194#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

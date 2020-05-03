@@ -13,12 +13,12 @@ import '../sass/style.sass'
 /* ========================= Mobile Menu =========================== */
 
 document.addEventListener("DOMContentLoaded", function() {
-    let link = document.querySelector('.mobile_menu_button');
-    let menu = document.querySelector('.mobile_menu_wrap');
+    let menuButton = document.querySelector('.mobile_menu_button');
+    let menuWrap = document.querySelector('.mobile_menu_wrap');
 
-    link.addEventListener('click', function() {
-        link.classList.toggle('mobile_menu_button_active');
-        menu.classList.toggle('mobile_menu_wrap_active');
+    menuButton.addEventListener('click', function() {
+        menuButton.classList.toggle('mobile_menu_button_active');
+        menuWrap.classList.toggle('mobile_menu_wrap_active');
     });
 });
 
