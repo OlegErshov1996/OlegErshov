@@ -1144,7 +1144,7 @@ h6.fade {
 
   .slider-container_mobile {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     grid-auto-flow: row;
     grid-gap: 30px;
     justify-items: center;
@@ -1300,6 +1300,11 @@ h6.fade {
   }
 }
 @media (max-width: 500px) {
+  .slider-container_mobile {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  }
+
   .content-project .text-h3 {
     font-size: 20px;
   }
@@ -1311,6 +1316,11 @@ h6.fade {
   }
 }
 @media (max-width: 420px) {
+  .slider-container_mobile {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  }
+
   .text_h2 {
     font-size: 36px !important;
   }
