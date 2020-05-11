@@ -7,7 +7,6 @@
     position: relative
     z-index: 1
     width: max-content
-    //margin-left: 40px
     padding: 0 10px
     margin: 0 auto
     font-size: 25px
@@ -48,24 +47,30 @@
   .wrap-information
     position: relative
     width: auto
+    height: 100%
     margin: 80px auto 20px
     display: grid
-    grid-template-columns: repeat(auto-fit, minmax(370px, auto))
-    grid-auto-flow: row
+    grid-template-areas: "photo univer career" "photo hobby career"
+    grid-template-columns: auto
+    grid-template-rows: auto
+    grid-auto-flow: dense
     grid-gap: 40px
     justify-items: center
     align-items: center
 
     .wrap-photo
       display: flex
-      justify-self: flex-start
       position: relative
-      width: 350px
+      grid-area: photo
+      justify-self: center
+      min-width: 400px
+      width: 100%
+      min-height: 400px
       height: 100%
-      margin: 0 20px
       box-shadow: 0 0 30px $black
       border-radius: 10px
       transition: 0.5s ease
+
       &:hover
         transform: translateY(-5px)
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.5)
@@ -121,65 +126,53 @@
         background: url("../img/photo/photo_2.jpg") center center no-repeat
         background-size: cover
 
-    .wrap-content-left
-      display: grid
-      grid-template-rows: 1fr 1fr
-      justify-items: center
-      align-items: center
-      grid-auto-flow: row
-      grid-gap: 20px
+    .learning
       width: 100%
       min-width: 400px
       height: 100%
-      padding: 0 20px
+      min-height: 300px
+      grid-area: univer
+      box-shadow: 0 0 30px $black
+      padding: 20px 10px
+      border-radius: 10px
+      transition: 0.5s ease
 
-      .learning
-        width: 100%
-        height: 100%
-        box-shadow: 0 0 30px $black
-        padding: 20px 10px
-        border-radius: 10px
-        transition: 0.5s ease
-        &:hover
-          transform: translateY(-5px)
-          box-shadow: 0 0 25px rgba(0, 0, 0, 0.5)
+      &:hover
+        transform: translateY(-5px)
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.5)
 
-      .hobby
-        width: 100%
-        height: 100%
-        display: flex
-        flex-direction: column
-        justify-content: flex-start
-        box-shadow: 0 0 30px $black
-        padding: 20px 10px
-        border-radius: 10px
-        transition: 0.5s ease
-        &:hover
-          transform: translateY(-5px)
-          box-shadow: 0 0 25px rgba(0, 0, 0, 0.5)
-
-    .wrap-content-right
-      display: grid
-      grid-template-rows: 1fr
-      justify-items: center
-      align-items: center
-      grid-auto-flow: row
-      grid-gap: 20px
+    .hobby
       width: 100%
       min-width: 400px
       height: 100%
-      padding: 0 20px
+      min-height: 300px
+      grid-area: hobby
+      display: flex
+      flex-direction: column
+      justify-content: flex-start
+      box-shadow: 0 0 30px $black
+      padding: 20px 10px
+      border-radius: 10px
+      transition: 0.5s ease
 
-      .career
-        width: 100%
-        height: 100%
-        box-shadow: 0 0 30px $black
-        padding: 20px 10px
-        border-radius: 10px
-        transition: 0.5s ease
-        &:hover
-          transform: translateY(-5px)
-          box-shadow: 0 0 25px rgba(0, 0, 0, 0.5)
+      &:hover
+        transform: translateY(-5px)
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.5)
+
+    .career
+      width: 100%
+      min-width: 400px
+      height: 100%
+      min-height: 400px
+      grid-area: career
+      box-shadow: 0 0 30px $black
+      padding: 20px 10px
+      border-radius: 10px
+      transition: 0.5s ease
+
+      &:hover
+        transform: translateY(-5px)
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.5)
 
   .text_p
     font-size: 20px
@@ -197,47 +190,31 @@
     border-bottom: 3px solid
     border-radius: 3px
 
-@media screen and (max-width: 860px)
-  .wrap-photo
-    width: 360px !important
-    height: 400px !important
-    margin: 0 20px
-    justify-self: center !important
+@media screen and (max-width: 1350px)
+  .wrap-information
+    grid-template-columns: 1fr 1fr
+    grid-template-rows: 1fr 1fr 1fr
+    grid-template-areas: "photo career" "photo career" "hobby univer" !important
 
-    .photo
-      width: 360px !important
-      height: 400px !important
+@media screen and (max-width: 920px)
+  .wrap-information
+    grid-template-columns: 1fr
+    grid-template-rows: 1fr 1fr 1fr 1fr
+    grid-template-areas: "photo" "career" "hobby" "univer" !important
 
-  .wrap-content-left, .wrap-content-right
-    max-width: min-content
+    .wrap-photo
+      min-height: 440px !important
 
-  .hobby
-    margin-top: 20px
-
+      .photo
+        background-position: bottom !important
 
 @media (max-width: 480px)
-  .wrap-photo
-    width: 300px !important
-    height: 400px !important
-    margin: 0 !important
-    justify-self: center !important
-
-    .photo
-      width: 300px !important
-      height: 400px !important
-
-  .wrap-information
-    grid-template-columns: repeat(auto-fit, minmax(340px, auto)) !important
-
-  .wrap-content-left, .wrap-content-right
-    min-width: 300px !important
-    padding: 0 !important
-
   .text_h2
     font-size: 40px
 
   .text_h3
     font-size: 20px !important
+
     &:after
       content: ""
       width: 40px !important
@@ -257,23 +234,6 @@
     padding: 2px 2px !important
 
 @media (max-width: 420px)
-  .wrap-photo
-    width: 280px !important
-    height: 400px !important
-    margin: 0 !important
-    justify-self: center !important
-
-    .photo
-      width: 280px !important
-      height: 400px !important
-
-  .wrap-information
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto)) !important
-
-  .wrap-content-left, .wrap-content-right
-    min-width: 280px !important
-    padding: 0 !important
-
   .date_p
     font-size: 15px !important
 
@@ -283,23 +243,6 @@
 @media (max-width: 360px)
   .container
     min-width: 300px !important
-
-  .wrap-photo
-    width: 250px !important
-    height: 400px !important
-    margin: 0 !important
-    justify-self: center !important
-
-    .photo
-      width: 250px !important
-      height: 400px !important
-
-  .wrap-information
-    grid-template-columns: repeat(auto-fit, minmax(260px, auto)) !important
-
-  .wrap-content-left, .wrap-content-right
-    min-width: 250px !important
-    padding: 0 !important
 
   .about_me_wrap
     padding: 30px 5px
@@ -316,6 +259,7 @@
 
   .text_h3
     font-size: 18px !important
+
     &:after
       content: ""
       width: 30px !important

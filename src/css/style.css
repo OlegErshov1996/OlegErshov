@@ -1,3 +1,4 @@
+@import "../css/normalize.css";
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 @import url("https://fonts.googleapis.com/css?family=Philosopher:400,400i,700,700i&display=swap&subset=cyrillic");
 .header {
@@ -87,7 +88,7 @@
   transform: translateY(0);
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1100px) {
   .mobile_menu_button {
     display: none;
   }
@@ -96,7 +97,7 @@
     display: none;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .header__nav {
     display: none;
   }
@@ -454,21 +455,26 @@ h6.fade {
 .about_me_wrap .wrap-information {
   position: relative;
   width: auto;
+  height: 100%;
   margin: 80px auto 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(370px, auto));
-  grid-auto-flow: row;
+  grid-template-areas: "photo univer career" "photo hobby career";
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-auto-flow: dense;
   grid-gap: 40px;
   justify-items: center;
   align-items: center;
 }
 .about_me_wrap .wrap-information .wrap-photo {
   display: flex;
-  justify-self: flex-start;
   position: relative;
-  width: 350px;
+  grid-area: photo;
+  justify-self: center;
+  min-width: 400px;
+  width: 100%;
+  min-height: 400px;
   height: 100%;
-  margin: 0 20px;
   box-shadow: 0 0 30px #000000;
   border-radius: 10px;
   transition: 0.5s ease;
@@ -528,33 +534,27 @@ h6.fade {
   background: url("../img/photo/photo_2.jpg") center center no-repeat;
   background-size: cover;
 }
-.about_me_wrap .wrap-information .wrap-content-left {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  justify-items: center;
-  align-items: center;
-  grid-auto-flow: row;
-  grid-gap: 20px;
+.about_me_wrap .wrap-information .learning {
   width: 100%;
   min-width: 400px;
   height: 100%;
-  padding: 0 20px;
-}
-.about_me_wrap .wrap-information .wrap-content-left .learning {
-  width: 100%;
-  height: 100%;
+  min-height: 300px;
+  grid-area: univer;
   box-shadow: 0 0 30px #000000;
   padding: 20px 10px;
   border-radius: 10px;
   transition: 0.5s ease;
 }
-.about_me_wrap .wrap-information .wrap-content-left .learning:hover {
+.about_me_wrap .wrap-information .learning:hover {
   transform: translateY(-5px);
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
-.about_me_wrap .wrap-information .wrap-content-left .hobby {
+.about_me_wrap .wrap-information .hobby {
   width: 100%;
+  min-width: 400px;
   height: 100%;
+  min-height: 300px;
+  grid-area: hobby;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -563,31 +563,22 @@ h6.fade {
   border-radius: 10px;
   transition: 0.5s ease;
 }
-.about_me_wrap .wrap-information .wrap-content-left .hobby:hover {
+.about_me_wrap .wrap-information .hobby:hover {
   transform: translateY(-5px);
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
-.about_me_wrap .wrap-information .wrap-content-right {
-  display: grid;
-  grid-template-rows: 1fr;
-  justify-items: center;
-  align-items: center;
-  grid-auto-flow: row;
-  grid-gap: 20px;
+.about_me_wrap .wrap-information .career {
   width: 100%;
   min-width: 400px;
   height: 100%;
-  padding: 0 20px;
-}
-.about_me_wrap .wrap-information .wrap-content-right .career {
-  width: 100%;
-  height: 100%;
+  min-height: 400px;
+  grid-area: career;
   box-shadow: 0 0 30px #000000;
   padding: 20px 10px;
   border-radius: 10px;
   transition: 0.5s ease;
 }
-.about_me_wrap .wrap-information .wrap-content-right .career:hover {
+.about_me_wrap .wrap-information .career:hover {
   transform: translateY(-5px);
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
@@ -608,47 +599,27 @@ h6.fade {
   border-radius: 3px;
 }
 
-@media screen and (max-width: 860px) {
-  .wrap-photo {
-    width: 360px !important;
-    height: 400px !important;
-    margin: 0 20px;
-    justify-self: center !important;
+@media screen and (max-width: 1350px) {
+  .wrap-information {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "photo career" "photo career" "hobby univer" !important;
   }
-  .wrap-photo .photo {
-    width: 350px !important;
-    height: 400px !important;
+}
+@media screen and (max-width: 920px) {
+  .wrap-information {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "photo" "career" "hobby" "univer" !important;
   }
-
-  .wrap-content-left, .wrap-content-right {
-    max-width: min-content;
+  .wrap-information .wrap-photo {
+    min-height: 440px !important;
   }
-
-  .hobby {
-    margin-top: 20px;
+  .wrap-information .wrap-photo .photo {
+    background-position: bottom !important;
   }
 }
 @media (max-width: 480px) {
-  .wrap-photo {
-    width: 300px !important;
-    height: 400px !important;
-    margin: 0 !important;
-    justify-self: center !important;
-  }
-  .wrap-photo .photo {
-    width: 300px !important;
-    height: 400px !important;
-  }
-
-  .wrap-information {
-    grid-template-columns: repeat(auto-fit, minmax(340px, auto)) !important;
-  }
-
-  .wrap-content-left, .wrap-content-right {
-    min-width: 300px !important;
-    padding: 0 !important;
-  }
-
   .text_h2 {
     font-size: 40px;
   }
@@ -678,26 +649,6 @@ h6.fade {
   }
 }
 @media (max-width: 420px) {
-  .wrap-photo {
-    width: 280px !important;
-    height: 400px !important;
-    margin: 0 !important;
-    justify-self: center !important;
-  }
-  .wrap-photo .photo {
-    width: 280px !important;
-    height: 400px !important;
-  }
-
-  .wrap-information {
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto)) !important;
-  }
-
-  .wrap-content-left, .wrap-content-right {
-    min-width: 280px !important;
-    padding: 0 !important;
-  }
-
   .date_p {
     font-size: 15px !important;
   }
@@ -709,26 +660,6 @@ h6.fade {
 @media (max-width: 360px) {
   .container {
     min-width: 300px !important;
-  }
-
-  .wrap-photo {
-    width: 250px !important;
-    height: 400px !important;
-    margin: 0 !important;
-    justify-self: center !important;
-  }
-  .wrap-photo .photo {
-    width: 250px !important;
-    height: 400px !important;
-  }
-
-  .wrap-information {
-    grid-template-columns: repeat(auto-fit, minmax(260px, auto)) !important;
-  }
-
-  .wrap-content-left, .wrap-content-right {
-    min-width: 250px !important;
-    padding: 0 !important;
   }
 
   .about_me_wrap {
@@ -1696,7 +1627,7 @@ body {
   min-width: 320px;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 15px 20px;
+  padding: 15px 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
