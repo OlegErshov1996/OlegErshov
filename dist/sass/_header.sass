@@ -1,0 +1,40 @@
+.header
+  border-bottom: 3px solid $orange
+  top: 0
+  width: 100%
+  position: fixed
+  background: linear-gradient(90deg, rgba(41,56,68,0.93) 0%, rgba(56,75,91,0.79) 50%, rgba(56,66,74,0.93) 100%), url("../img/27.jpg") center top no-repeat
+  z-index: 5
+
+  .progress_page
+    width: 100%
+    height: 3px
+    background: $gray
+    top: 0
+    left: 0
+    right: 0
+    position: fixed
+    z-index: 7
+
+    .progress_page_bar
+      height: 3px
+      background: $orange
+      width: 0
+      z-index: 8
+
+.header__wrap
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  align-items: center
+
+  .header__logo
+    .logo
+      display: flex
+      align-items: center
+      margin-top: 15px
+
+  .header__nav
+    .header__menu
+      padding: 0
+      margin: 0

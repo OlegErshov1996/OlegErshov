@@ -1,0 +1,197 @@
+.menu
+  display: flex
+  flex-wrap: wrap
+  list-style: none
+
+  .menu__element
+    margin-right: 50px
+    font-weight: bold
+
+    &:last-child
+      margin-right: 0
+
+    .menu__link
+      display: inline-block
+      font-size: 20px
+      color: $grey-text
+      position: relative
+      letter-spacing: 2px
+
+      &:hover
+        color: $orange
+        transition: color 0.4s
+
+      &::before, &::after
+        position: absolute
+        width: 100%
+        left: 0
+        height: 2px
+        background-color: $orange
+        content: ""
+        opacity: 0
+        transition: opacity 0.4s, transform 0.4s
+
+      &::before
+        top: -5px
+        transform: translateY(-10px)
+
+      &::after
+        bottom: -5px
+        transform: translateY(10px)
+
+      &:hover::before, &:hover::after
+        opacity: 1
+        transform: translateY(0)
+
+@media (min-width: 1100px)
+  .mobile_menu_button
+    display: none
+
+  .mobile_menu_wrap
+    display: none
+
+@media (max-width: 1100px)
+  .header__nav
+    display: none
+
+  .mobile_menu_wrap
+    position: relative
+
+    .mobile_menu_items
+      display: flex
+      flex-direction: column
+      justify-content: center
+      text-align: center
+      background: linear-gradient(90deg, rgba(41,56,68,0.93) 0%, rgba(56,75,91,0.79) 50%, rgba(56,66,74,0.93) 100%), url("../img/27.jpg") center top no-repeat
+      list-style: none
+      position: fixed
+      height: 100vh
+      width: 120%
+      align-items: center
+      margin-left: auto
+      clip-path: circle(100px at 90% -10%)
+      -webkit-clip-path: circle(100px at 90% -10%)
+      transition: all 1s ease-out
+      pointer-events: none
+      left: 0
+      top: 0
+      z-index: 4
+
+      .mobile_menu_link
+        opacity: 0
+        margin-right: 15%
+
+        &:nth-child(1)
+          transition: all 0.5s ease 2.2s
+
+        &:nth-child(2)
+          transition: all 0.5s ease 2.4s
+
+        &:nth-child(3)
+          transition: all 0.5s ease 2.6s
+
+        &:nth-child(4)
+          transition: all 0.5s ease 2.8s
+
+        &:nth-child(5)
+          transition: all 0.5s ease 3s
+
+        &:hover
+          background-color: rgba(216, 216, 216, 0.2)
+          color: $orange
+          transition: 0.2s
+
+    .open_menu
+      display: flex
+      justify-content: center
+      text-align: center
+      clip-path: circle(2000px at 90% -20%)
+      -webkit-clip-path: circle(2000px at 90% -20%)
+      pointer-events: all
+      left: 0
+      top: 0
+      z-index: 4
+
+    .mobile_menu_button
+      display: block
+      width: 45px
+      height: 45px
+      background-color: $grey-text
+      border-radius: 50%
+      box-shadow: 0px 0px 10px rgba(255, 112, 67, 1)
+      position: fixed
+      top: 20px
+      right: 20px
+      z-index: 5
+
+    .mobile_menu_line
+      display: block
+      height: 2px
+      width: 18px
+      position: absolute
+      right: 50%
+      top: 50%
+      margin-right: -9px
+      margin-top: -1px
+      background-color: $primary
+
+      &::before
+        content: ''
+        margin-top: -6px
+        height: 2px
+        width: 18px
+        position: absolute
+        background-color: $primary
+        transition: all 0.2s
+
+      &::after
+        content: ''
+        margin-top: 6px
+        height: 2px
+        width: 18px
+        position: absolute
+        background-color: $primary
+        transition: all 0.2s
+
+    .mobile_menu_button_active
+      .mobile_menu_line
+        background-color: transparent
+
+        &::before
+          transform: rotate(135deg)
+          margin-top: 0
+
+        &::after
+          transform: rotate(-135deg)
+          margin-top: 0
+
+.mobile_link
+  color: $grey-text
+  text-decoration: none
+  font-size: 22px
+  font-weight: bold
+  z-index: 5
+  display: block
+  width: 100vw
+  padding: 40px 0
+
+  &:hover
+    color: $orange
+    transition: 0.4s
+
+.fade
+  opacity: 1 !important
+  transition: opacity 0.8s ease 0.2s !important
+
+@media (max-width: 335px)
+  .mobile_menu_button
+    display: block
+    width: 35px
+    height: 35px
+    background-color: $grey-text
+    border-radius: 50%
+    box-shadow: 0px 0px 10px rgba(255, 112, 67, 1)
+    position: fixed
+    top: 25px
+    right: 15px
+    z-index: 5

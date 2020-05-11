@@ -1,0 +1,66 @@
+.banner
+  width: 100%
+  height: 100vh
+  background: $black
+  position: relative
+  overflow: hidden
+
+  &:after
+    content: ""
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    background: url("../img/24.jpg") no-repeat
+    background-attachment: fixed
+    background-size: cover
+    opacity: 0.3
+    animation: animateFon 30s linear infinite
+
+@keyframes animateFon
+  50%
+    transform: scale(1.5)
+  100%
+    transform: scale(1)
+
+.banner__info
+  position: absolute
+  z-index: 1
+  top: 50%
+  left: 50%
+  width: 100%
+  transform: translate(-50%, -50%)
+  max-width: 800px
+  text-align: center
+  padding: 0 40px
+  box-sizing: border-box
+
+  .banner__title
+    color: $grey-text
+    font-size: 44px
+    text-shadow: 1px 1px 10px $black
+
+h6
+  display: inline
+  font-size: 44px
+  font-weight: bold
+  opacity: 0
+  transition: all 0.5s ease
+
+  &.fade
+    opacity: 1
+
+@media (max-width: 600px)
+  .banner__title
+    font-size: 38px
+
+  h6
+    font-size: 38px
+
+@media (max-width: 420px)
+  .banner__title
+    font-size: 32px
+
+  h6
+    font-size: 32px
