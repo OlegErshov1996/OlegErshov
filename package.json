@@ -8,7 +8,8 @@
     "build": "webpack --mode production",
     "watch": "webpack --mode development --watch",
     "watch-sass": "sass --watch src/sass/style.sass:src/css/style.css",
-    "start": "webpack-dev-server --mode development --open"
+    "start": "webpack-dev-server --mode development --open",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "browserslist": [
     "> 1%",
