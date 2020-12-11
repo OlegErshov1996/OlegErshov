@@ -35,3 +35,11 @@ function pageScroll () {
 
     document.getElementById('pageBar').style.width = scrolled + '%';
 }
+
+/* ========================= Navigation transparent ======================== */
+
+let header = document.querySelector('.header')
+window.addEventListener('scroll', function () {
+    let windowPosition = window.scrollY > 0;
+    header.classList.toggle('active-header', windowPosition)
+})
