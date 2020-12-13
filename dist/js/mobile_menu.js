@@ -8,3 +8,15 @@ mobileMenuButton.addEventListener('click', () => {
         linkMobile.classList.toggle('fade');
     });
 });
+
+/* ========================= Mobile Menu =========================== */
+
+document.addEventListener("DOMContentLoaded", function() {
+    let link = document.querySelector('.mobile_menu_button');
+    let menu = document.querySelector('.mobile_menu_wrap');
+
+    link.addEventListener('click', function() {
+        link.classList.toggle('mobile_menu_button_active');
+        menu.classList.toggle('mobile_menu_wrap_active');
+    });
+});
