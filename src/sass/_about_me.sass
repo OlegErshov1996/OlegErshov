@@ -203,10 +203,25 @@
     grid-template-areas: "photo" "career" "univer" "hobby" !important
 
     .wrap-photo
-      min-height: 440px !important
+      min-height: 1000px !important
 
       .photo
         background-position: bottom !important
+
+@media screen and (max-width: 800px)
+  .wrap-information
+    .wrap-photo
+      min-height: 860px !important
+
+@media screen and (max-width: 700px)
+  .wrap-information
+    .wrap-photo
+      min-height: 740px !important
+
+@media screen and (max-width: 600px)
+  .wrap-information
+    .wrap-photo
+      min-height: 630px !important
 
 @media (max-width: 480px)
   .wrap-photo
