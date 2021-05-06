@@ -35,7 +35,9 @@
     position: relative
     width: 220px
     height: 350px
-    border-radius: 10px
+    border: 1px solid $orange
+    border-radius: 15px
+    box-shadow: 0 0 10px $orange
     background: rgb(41, 56, 68)
     //background: linear-gradient(90deg, rgba(41,56,68,0.9) 0%, rgba(255,112,64,0.9) 50%, rgba(41,56,68,0.9) 100%)
     //background: linear-gradient(90deg, rgba(33, 41, 46, 1) 0%, rgba(167, 167, 167, 0.9) 50%, rgba(33, 41, 46, 1) 100%)
@@ -47,7 +49,8 @@
 
     &:hover
       transform: translateY(-5px)
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5)
+      //box-shadow: 0 0 15px rgba(0, 0, 0, 0.5)
+      box-shadow: 0 0 10px $orange
 
       .number
         h2
@@ -92,7 +95,7 @@
       margin-top: 30px
       color: $primary
       font-size: 22px
-      transition: 0.8s ease
+      transition: 0.5s ease-in-out
 
     .number
       display: flex
@@ -299,7 +302,7 @@
   color: $grey-text
   opacity: 0
   transform: translateY(20px)
-  transition: .4s ease-in-out
+  transition: .94s ease-in-out
 
 .card .box .percent .technology:hover
   color: $orange
@@ -307,7 +310,7 @@
 .card:hover .box .percent .technology
   opacity: 1
   transform: translateY(-30px)
-  transition-delay: .5s
+  transition-delay: .28s
 
 .card:hover .box .percent h3
   opacity: 1

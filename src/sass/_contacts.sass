@@ -45,7 +45,7 @@
         color: $primary
         font-size: 25px
         font-weight: bold
-        border-radius: 6px
+        border-radius: 10px
         letter-spacing: 2px
         transition: 0.7s
 
@@ -73,7 +73,7 @@
         padding: 0 10px
         z-index: 1
         color: $white
-        border-radius: 6px
+        border-radius: 10px
 
         &:focus + .text, &:valid + .text
           top: -35px
@@ -103,16 +103,16 @@
         display: block
         width: 100%
         height: 2px
-        background: $orange
+        background: linear-gradient(180deg, #ff7043, #293844)
         transition: 0.5s
-        border-radius: 6px
+        border-radius: 10px
         pointer-events: none
 
       &.textarea
         position: relative
         width: 100%
         height: 180px
-        padding: 10px 0
+        padding: 0 0
 
         textarea
           height: -webkit-fill-available
@@ -176,7 +176,7 @@ $timing: 0.3s
         content: " "
         width: 80px
         height: 50px
-        border-radius: 10%
+        border-radius: 10px
         display: block
         background: linear-gradient(180deg, $orange, $primary)
         transition: all $timing ease-out
@@ -211,7 +211,18 @@ $timing: 0.3s
         transform: scale(1.6)
         -webkit-text-fill-color: #fff
 
-@media (max-width: 375px)
+@media (max-width: 600px)
+  .social-icons
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto)) !important
+
+@media (max-width: 480px)
+  .social-icons
+    grid-template-columns: repeat(auto-fit, minmax(70px, auto)) !important
+
+@media (max-width: 380px)
+  .social-icons
+    grid-template-columns: repeat(auto-fit, minmax(60px, auto)) !important
+
   .contacts_wrap
     padding: 30px 10px
 
