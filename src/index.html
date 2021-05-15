@@ -11,7 +11,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
     <link rel="manifest" href="./img/favicon/site.webmanifest">
     <link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <title>Portfolio</title>
+    <title>Oleg Ershov</title>
 </head>
 <body>
 
@@ -47,16 +47,16 @@
                     </li>
                 </ul>
             </nav>
-            <div class="mobile_menu_wrap">
+            <div class="mobile_menu_wrap" id="mobile_menu_wrap">
                 <a class="mobile_menu_button" href="#mobile_menu">
                     <span class="mobile_menu_line"></span>
                 </a>
-                <ul class="mobile_menu_items">
+                <ul class="mobile_menu_items" id="mobile_menu_items">
                     <li class="mobile_menu_link">
                         <a class="mobile_link" href="#banner">Главная</a>
                     </li>
                     <li class="mobile_menu_link">
-                        <a class="mobile_link" href="#about_me">О себе</a>
+                        <a class="mobile_link" href="#about_me" onclick="toggleMenu();">О себе</a>
                     </li>
                     <li class="mobile_menu_link">
                         <a class="mobile_link" href="#skills">Навыки</a>
@@ -74,11 +74,12 @@
     <section class="banner" id="banner">
         <div class="banner__info">
             <h1 class="banner__title">
-                Здравствуйте! Меня зовут Олег и я Front-end Developer
+                Здравствуйте! Меня зовут Олег и я Frontend Developer
             </h1>
         </div>
     </section>
 </div>
+<div class="blackout"></div>
 <div class="container about_me_wrap" id="about_me">
     <h2 class="text_h2">О себе</h2>
     <div class="wrap-information m_t_40 m_b_40">
@@ -105,10 +106,11 @@
             <p class="text_p m_b_25">"HTML-верстальщик"</p>
             <p class="date_p">Февраль 2020 - Настоящее время</p>
             <p class="text_p m_b_10">Научно-исследовательский институт систем связи и управления</p>
-            <p class="text_p">"Инженер-программист"</p>
+            <p class="text_p">"Front-end Developer"</p>
         </div>
     </div>
 </div>
+<div class="blackout"></div>
 <div class="container skills_wrap" id="skills">
     <h2 class="text_h2">Навыки</h2>
     <div class="skills_container">
@@ -348,6 +350,7 @@
         </div>
     </div>
 </div>
+<div class="blackout"></div>
 <div class="container services_wrap" id="services">
     <h2 class="text_h2">Портфолио</h2>
     <div class="slider-container_desktop">
@@ -439,6 +442,7 @@
         </div>
     </div>
 </div>
+<div class="blackout"></div>
 <div class="container contacts_wrap" id="contacts">
     <h2 class="text_h2">Контакты</h2>
     <div class="box-contacts">
