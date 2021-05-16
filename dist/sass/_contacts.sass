@@ -19,111 +19,118 @@
     opacity: 0.2
     animation: animateFon 30s linear infinite
 
-  .box-contacts
+  .contacts-container
     position: relative
-    width: 100%
-    z-index: 2
-    display: grid
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
-    margin-top: 20px
+    width: auto
+    max-width: 1500px
+    height: 100%
+    margin: auto
 
-    .wrap-input
-      display: flex
-      justify-content: center
+    .box-contacts
       position: relative
       width: 100%
-      padding: 0 10px
-      margin: 30px 0 10px
-      transition: 0.5s
+      z-index: 2
+      display: grid
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
+      margin-top: 20px
 
-      .input-submit
-        border: 2px solid $orange
-        padding: 7px 35px
-        cursor: pointer
-        outline: none
-        background: $orange
-        color: $primary
-        font-size: 25px
-        font-weight: bold
-        border-radius: 10px
-        letter-spacing: 2px
-        transition: 0.7s
-
-        &:hover
-          background: transparent
-          color: $orange
-          transition: 0.5s
-
-    .box-input
-      position: relative
-      width: 100%
-      height: 40px
-      color: $orange
-
-      input, &.textarea textarea
-        position: absolute
+      .wrap-input
+        display: flex
+        justify-content: center
+        position: relative
         width: 100%
-        height: 100%
-        background: transparent
-        box-shadow: none
-        border: none
-        outline: none
-        font-size: 25px
-        font-weight: bold
         padding: 0 10px
-        z-index: 1
-        color: $white
-        border-radius: 10px
+        margin: 30px 0 10px
+        transition: 0.5s
 
-        &:focus + .text, &:valid + .text
+        .input-submit
+          border: 2px solid $orange
+          padding: 7px 35px
+          cursor: pointer
+          outline: none
+          background: $orange
+          color: $primary
+          font-size: 25px
+          font-weight: bold
+          border-radius: 10px
+          letter-spacing: 2px
+          transition: 0.7s
+
+          &:hover
+            background: transparent
+            color: $orange
+            transition: 0.5s
+
+      .box-input
+        position: relative
+        width: 100%
+        height: 40px
+        color: $orange
+
+        input, &.textarea textarea
+          position: absolute
+          width: 100%
+          height: 100%
+          background: transparent
+          box-shadow: none
+          border: none
+          outline: none
+          font-size: 25px
+          font-weight: bold
+          padding: 0 10px
+          z-index: 1
+          color: $white
+          border-radius: 10px
+
+          &:focus + .text, &:valid + .text
+            top: -35px
+            left: -10px
+
+          &:focus ~ .line, &:valid ~ .line
+            height: 100%
+
+        .text
+          position: absolute
+          top: 0
+          left: 0
+          line-height: 40px
+          font-size: 25px
+          font-weight: bold
+          padding: 0 10px
+          display: block
+          transition: 0.5s
+          pointer-events: none
+
+        .text-sms
+          top: 140px
+
+        .line
+          position: absolute
+          bottom: 0
+          display: block
+          width: 100%
+          height: 2px
+          background: linear-gradient(180deg, #ff7043, #293844)
+          transition: 0.5s
+          border-radius: 10px
+          pointer-events: none
+
+        &.textarea
+          position: relative
+          width: 100%
+          height: 180px
+          padding: 0 0
+
+          textarea
+            height: -webkit-fill-available
+            resize: none
+
+        textarea:focus + .text, textarea:valid + .text
           top: -35px
           left: -10px
 
-        &:focus ~ .line, &:valid ~ .line
-          height: 100%
-
-      .text
-        position: absolute
-        top: 0
-        left: 0
-        line-height: 40px
-        font-size: 25px
-        font-weight: bold
-        padding: 0 10px
-        display: block
-        transition: 0.5s
-        pointer-events: none
-
-      .text-sms
-        top: 140px
-
-      .line
-        position: absolute
-        bottom: 0
-        display: block
-        width: 100%
-        height: 2px
-        background: linear-gradient(180deg, #ff7043, #293844)
-        transition: 0.5s
-        border-radius: 10px
-        pointer-events: none
-
-      &.textarea
-        position: relative
-        width: 100%
-        height: 180px
-        padding: 0 0
-
-        textarea
-          height: -webkit-fill-available
-          resize: none
-
-      textarea:focus + .text, textarea:valid + .text
-        top: -35px
-        left: -10px
-
-      textarea:focus ~ .line, textarea:valid ~ .line
-        height: 100px
+        textarea:focus ~ .line, textarea:valid ~ .line
+          height: 100px
 
 @keyframes animateFon
   50%
