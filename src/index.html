@@ -11,6 +11,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
     <link rel="manifest" href="./img/favicon/site.webmanifest">
     <link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+
+    <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/1.0.0/dist/progressbar.js"></script>
+
     <title>Oleg Ershov</title>
 </head>
 <body>
@@ -115,239 +118,172 @@
     <h2 class="text_h2">Навыки</h2>
     <div class="skills_container">
         <div class="card scroll-stop-01">
-            <div class="box">
-                <div class="percent">
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                    <div class="number">
-                        <h2>90<span>%</span></h2>
-                    </div>
-                    <h3><img src="img/svg/html-5_144.svg" height="90" width="90" class="icon_skills" alt="HTML"></h3>
-                    <p class="technology">HTML</p>
+            <div id="containerProgressBar01" class="containerProgressBar" data-animation-state="0">
+                <div class="number">
+                    <div class="number01 out-num" data-max="90">0</div>
+                    <span>%</span>
                 </div>
+                <h3><img src="img/svg/html-5_144.svg" height="90" width="90" class="icon_skills" alt="HTML"></h3>
+                <p class="technology">HTML</p>
             </div>
         </div>
         <div class="card scroll-stop-02">
-            <div class="box">
-                <div class="percent">
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                    <div class="number">
-                        <h2>80<span>%</span></h2>
-                    </div>
-                    <h3><img src="img/svg/css-3_144.svg" height="90" width="90" class="icon_skills" alt="CSS"></h3>
-                    <p class="technology">CSS</p>
+            <div id="containerProgressBar02" class="containerProgressBar" data-animation-state="0">
+                <div class="number">
+                    <div class="number02 out-num" data-max="80">0</div>
+                    <span>%</span>
                 </div>
+                <h3><img src="img/svg/css-3_144.svg" height="90" width="90" class="icon_skills" alt="CSS"></h3>
+                <p class="technology">CSS</p>
             </div>
         </div>
         <div class="card scroll-stop-03">
-            <div class="box">
-                <div class="percent">
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                    <div class="number">
-                        <h2>40<span>%</span></h2>
-                    </div>
-                    <h3><img src="img/svg/JavaScript_144.svg" height="90" width="90" class="icon_skills"
-                             alt="JavaScript"></h3>
-                    <p class="technology">JavaScript</p>
+            <div id="containerProgressBar03" class="containerProgressBar" data-animation-state="0">
+                <div class="number">
+                    <div class="number03 out-num" data-max="40">0</div>
+                    <span>%</span>
                 </div>
+                <h3><img src="img/svg/JavaScript_144.svg" height="90" width="90" class="icon_skills"
+                         alt="JavaScript"></h3>
+                <p class="technology">JavaScript</p>
             </div>
         </div>
         <div class="card scroll-stop-04">
-            <div class="box">
-                <div class="percent">
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                    <div class="number">
-                        <h2>40<span>%</span></h2>
-                    </div>
-                    <h3><img src="img/svg/typescript_1.svg" height="70" width="70" class="icon_skills m_t_10 m_b_10"
-                             alt="TypeScript"></h3>
-                    <p class="technology">TypeScript</p>
+            <div id="containerProgressBar04" class="containerProgressBar" data-animation-state="0">
+                <div class="number">
+                    <div class="number04 out-num" data-max="40">0</div>
+                    <span>%</span>
                 </div>
+                <h3><img src="img/svg/typescript_1.svg" height="70" width="70" class="icon_skills m_t_10 m_b_10"
+                         alt="TypeScript"></h3>
+                <p class="technology">TypeScript</p>
             </div>
         </div>
         <div class="card scroll-stop-05">
-            <div class="box">
-                <div class="percent">
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                    <div class="number">
-                        <h2>20<span>%</span></h2>
-                    </div>
-                    <h3><img src="img/svg/react-1.svg" height="70" width="70" class="icon_skills m_t_10 m_b_10"
-                             alt="React"></h3>
-                    <p class="technology">ReactJS</p>
+            <div id="containerProgressBar05" class="containerProgressBar" data-animation-state="0">
+                <div class="number">
+                    <div class="number05 out-num" data-max="30">0</div>
+                    <span>%</span>
                 </div>
+                <h3><img src="img/svg/react-1.svg" height="70" width="70" class="icon_skills m_t_10 m_b_10"
+                         alt="React"></h3>
+                <p class="technology">ReactJS</p>
             </div>
         </div>
         <div class="card scroll-stop-06">
-            <div class="box">
-                <div class="percent">
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                    <div class="number">
-                        <h2>20<span>%</span></h2>
-                    </div>
-                    <h3><img src="img/svg/VueJS_144.svg" height="90" width="90" class="icon_skills" alt="Vue"></h3>
-                    <p class="technology">VueJS</p>
+            <div id="containerProgressBar06" class="containerProgressBar" data-animation-state="0">
+                <div class="number">
+                    <div class="number06 out-num" data-max="30">0</div>
+                    <span>%</span>
                 </div>
+                <h3><img src="img/svg/VueJS_144.svg" height="90" width="90" class="icon_skills" alt="Vue"></h3>
+                <p class="technology">VueJS</p>
             </div>
         </div>
         <div class="card scroll-stop-07">
-            <div class="box">
-                <div class="percent">
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                    <div class="number">
-                        <h2>50<span>%</span></h2>
-                    </div>
-                    <h3><img src="img/svg/webpack_1.svg" height="80" width="80" class="icon_skills m_t_5 m_b_5"
-                             alt="Webpack"></h3>
-                    <p class="technology">Webpack</p>
+            <div id="containerProgressBar07" class="containerProgressBar" data-animation-state="0">
+                <div class="number">
+                    <div class="number07 out-num" data-max="50">0</div>
+                    <span>%</span>
                 </div>
+                <h3><img src="img/svg/webpack_1.svg" height="80" width="80" class="icon_skills m_t_5 m_b_5"
+                         alt="Webpack"></h3>
+                <p class="technology">Webpack</p>
             </div>
         </div>
         <div class="card scroll-stop-08">
-            <div class="box">
-                <div class="percent">
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                    <div class="number">
-                        <h2>20<span>%</span></h2>
-                    </div>
-                    <h3><img src="img/svg/graphql_icon_1.svg" height="80" width="80" class="icon_skills m_t_5 m_b_5"
-                             alt="GraphQl"></h3>
-                    <p class="technology">GraphQL</p>
+            <div id="containerProgressBar08" class="containerProgressBar" data-animation-state="0">
+                <div class="number">
+                    <div class="number08 out-num" data-max="30">0</div>
+                    <span>%</span>
                 </div>
+                <h3><img src="img/svg/graphql_icon_1.svg" height="80" width="80" class="icon_skills m_t_5 m_b_5"
+                         alt="GraphQl"></h3>
+                <p class="technology">GraphQl</p>
             </div>
         </div>
         <div class="card scroll-stop-09">
-            <div class="box">
-                <div class="percent">
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                    <div class="number">
-                        <h2>20<span>%</span></h2>
-                    </div>
-                    <h3><img src="img/svg/nodejs-1.svg" height="90" width="90" class="icon_skills" alt="NodeJS"></h3>
-                    <p class="technology">NodeJS</p>
+            <div id="containerProgressBar09" class="containerProgressBar" data-animation-state="0">
+                <div class="number">
+                    <div class="number09 out-num" data-max="20">0</div>
+                    <span>%</span>
                 </div>
+                <h3><img src="img/svg/nodejs-1.svg" height="90" width="90" class="icon_skills" alt="NodeJS">
+                </h3>
+                <p class="technology">NodeJS</p>
             </div>
         </div>
         <div class="card scroll-stop-10">
-            <div class="box">
-                <div class="percent">
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                    <div class="number">
-                        <h2>70<span>%</span></h2>
-                    </div>
-                    <h3><img src="img/svg/Sass_1.svg" height="90" width="90" class="icon_skills" alt="Sass"></h3>
-                    <p class="technology">Sass</p>
+            <div id="containerProgressBar10" class="containerProgressBar" data-animation-state="0">
+                <div class="number">
+                    <div class="number10 out-num" data-max="70">0</div>
+                    <span>%</span>
                 </div>
+                <h3><img src="img/svg/Sass_1.svg" height="90" width="90" class="icon_skills" alt="Sass">
+                </h3>
+                <p class="technology">Sass</p>
             </div>
         </div>
         <div class="card scroll-stop-11">
-            <div class="box">
-                <div class="percent">
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                    <div class="number">
-                        <h2>20<span>%</span></h2>
-                    </div>
-                    <h3><img src="img/svg/MongoDB_144.svg" height="90" width="90" class="icon_skills" alt="MongoDB">
-                    </h3>
-                    <p class="technology">MongoDB</p>
+            <div id="containerProgressBar11" class="containerProgressBar" data-animation-state="0">
+                <div class="number">
+                    <div class="number11 out-num" data-max="30">0</div>
+                    <span>%</span>
                 </div>
+                <h3><img src="img/svg/MongoDB_144.svg" height="90" width="90" class="icon_skills" alt="MongoDB">
+                </h3>
+                <p class="technology">MongoDB</p>
             </div>
         </div>
+
         <div class="card scroll-stop-12">
-            <div class="box">
-                <div class="percent">
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                    <div class="number">
-                        <h2>50<span>%</span></h2>
-                    </div>
-                    <h3><img src="img/svg/Git_144.svg" height="90" width="90" class="icon_skills" alt="Git"></h3>
-                    <p class="technology">Git</p>
+            <div id="containerProgressBar12" class="containerProgressBar" data-animation-state="0">
+                <div class="number">
+                    <div class="number12 out-num" data-max="50">0</div>
+                    <span>%</span>
                 </div>
+                <h3><img src="img/svg/Git_144.svg" height="90" width="90" class="icon_skills" alt="Git">
+                </h3>
+                <p class="technology">Git</p>
             </div>
         </div>
+
         <div class="card scroll-stop-13">
-            <div class="box">
-                <div class="percent">
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                    <div class="number">
-                        <h2>80<span>%</span></h2>
-                    </div>
-                    <h3><img src="img/svg/figma_1.svg" height="70" width="70" class="icon_skills m_t_10 m_b_10"
-                             alt="Figma"></h3>
-                    <p class="technology">Figma</p>
+            <div id="containerProgressBar13" class="containerProgressBar" data-animation-state="0">
+                <div class="number">
+                    <div class="number13 out-num" data-max="80">0</div>
+                    <span>%</span>
                 </div>
+                <h3><img src="img/svg/figma_1.svg" height="70" width="70" class="icon_skills m_t_10 m_b_10" alt="Figma">
+                </h3>
+                <p class="technology">Figma</p>
             </div>
         </div>
+
         <div class="card scroll-stop-14">
-            <div class="box">
-                <div class="percent">
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                    <div class="number">
-                        <h2>80<span>%</span></h2>
-                    </div>
-                    <h3><img src="img/svg/zeplin.svg" height="80" width="80" class="icon_skills m_b_5" alt="Zeplin">
-                    </h3>
-                    <p class="technology">Zeplin</p>
+            <div id="containerProgressBar14" class="containerProgressBar" data-animation-state="0">
+                <div class="number">
+                    <div class="number14 out-num" data-max="80">0</div>
+                    <span>%</span>
                 </div>
+                <h3><img src="img/svg/zeplin.svg" height="80" width="80" class="icon_skills m_b_10" alt="Zeplin">
+                </h3>
+                <p class="technology">Zeplin</p>
             </div>
         </div>
+
         <div class="card scroll-stop-15">
-            <div class="box">
-                <div class="percent">
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                    <div class="number">
-                        <h2>50<span>%</span></h2>
-                    </div>
-                    <h3><img src="img/svg/Jira_144.svg" height="70" width="70" class="icon_skills m_t_10 m_b_10"
-                             alt="Jira"></h3>
-                    <p class="technology">Jira</p>
+            <div id="containerProgressBar15" class="containerProgressBar" data-animation-state="0">
+                <div class="number">
+                    <div class="number15 out-num" data-max="50">0</div>
+                    <span>%</span>
                 </div>
+                <h3><img src="img/svg/Jira_144.svg" height="70" width="70" class="icon_skills m_t_10 m_b_10"
+                         alt="Jira"></h3>
+                <p class="technology">Jira</p>
             </div>
         </div>
+
     </div>
 </div>
 <div class="blackout"></div>
