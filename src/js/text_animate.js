@@ -1,4 +1,4 @@
-/* =========================================== Header Text Animate =========================================== */
+/* ============================ Header Text Animate ============================ */
 const text = document.querySelector(".banner__title");
 const strText = text.textContent;
 const splitText = strText.split("");

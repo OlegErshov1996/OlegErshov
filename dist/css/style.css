@@ -21,7 +21,7 @@
   position: fixed;
   background: transparent;
   transition: 2s;
-  z-index: 5;
+  z-index: 10;
 }
 .header .progress_page {
   width: 100%;
@@ -86,10 +86,11 @@
   color: #d8d8d8;
   position: relative;
   letter-spacing: 2px;
+  transition: 0.5s ease;
 }
 .menu .menu__element .menu__link:hover {
   color: #ff7043;
-  transition: color 0.4s;
+  transition: color 0.4s ease;
 }
 .menu .menu__element .menu__link::before, .menu .menu__element .menu__link::after {
   position: absolute;
@@ -355,7 +356,7 @@ h6.fade {
 }
 .text_h2 {
   position: relative;
-  z-index: 1;
+  z-index: 5;
   margin: 0 auto;
   font-size: 45px;
   color: #ff7043;
@@ -422,26 +423,41 @@ h6.fade {
 
 .scroll-stop-04, .scroll-stop-05, .scroll-stop-06, .scroll-stop-10, .scroll-stop-11, .scroll-stop-12 {
   opacity: 0;
-  transform: translateX(70px);
+  transform: translateY(70px);
   transition: 4s all ease-in-out;
 }
 
 .scroll-stop-01, .scroll-stop-02, .scroll-stop-03, .scroll-stop-07, .scroll-stop-08, .scroll-stop-09,
 .scroll-stop-13, .scroll-stop-14, .scroll-stop-15 {
   opacity: 0;
-  transform: translateX(-70px);
-  transition: 4s all ease-in-out;
+  transform: translateY(70px);
+  transition: 8s all ease-in-out;
 }
 
 .scroll-start-1 {
   opacity: 1;
   transform: translateX(0px);
-  transition: 4s all ease-in-out;
+  transition: 8s all ease-in-out;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #293844;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: 0px 0px 0px #293844;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d8d8d8;
+  border-radius: 8px;
 }
 
 .about_me_wrap {
   height: auto;
-  padding: 30px 30px;
+  padding: 60px 30px 80px;
   background: linear-gradient(90deg, rgba(41, 56, 68, 0.93) 0%, rgba(56, 75, 91, 0.79) 50%, rgba(56, 66, 74, 0.93) 100%), url("../img/27.jpg") center top repeat;
 }
 .about_me_wrap .text_h3 {
@@ -485,6 +501,7 @@ h6.fade {
 .about_me_wrap .wrap-information {
   position: relative;
   width: auto;
+  max-width: 1500px;
   height: 100%;
   margin: 80px auto 20px;
   display: grid;
@@ -758,7 +775,7 @@ h6.fade {
   background: #000000;
   position: relative;
   overflow: hidden;
-  padding: 30px 30px;
+  padding: 60px 30px 80px;
 }
 .skills_wrap .icon_wrap {
   display: grid;
@@ -774,6 +791,7 @@ h6.fade {
 .skills_container {
   position: relative;
   width: auto;
+  max-width: 1500px;
   margin: 80px auto 20px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
@@ -804,13 +822,17 @@ h6.fade {
   transform: translateY(-5px);
   box-shadow: 0 0 10px #ff7043;
 }
-.skills_container .card:hover .number h2 {
+.skills_container .card:hover .number .out-num {
   color: #d8d8d8;
   transition: 0.5s ease-in-out;
   font-size: 50px;
 }
-.skills_container .card:hover .number h2 span {
+.skills_container .card:hover .number span {
   color: #d8d8d8;
+  border-bottom: 2px solid #d8d8d8;
+}
+.skills_container .card:hover .number .icon_skills {
+  transition-delay: 1.63s;
 }
 .skills_container .card:hover .number .icon_skills:hover {
   transform: translatey(-5px);
@@ -828,7 +850,7 @@ h6.fade {
   background-color: rgba(255, 255, 255, 0.05);
   pointer-events: none;
 }
-.skills_container .percent {
+.skills_container .containerProgressBar {
   position: relative;
   bottom: 50px;
   width: 150px;
@@ -838,13 +860,74 @@ h6.fade {
   background: radial-gradient(circle, #5b687d 0%, #293844 100%);
   z-index: 1;
 }
-.skills_container .percent h3 {
+.skills_container .containerProgressBar h3 {
   margin-top: 30px;
   color: #293844;
   font-size: 22px;
   transition: 0.5s ease-in-out;
 }
-.skills_container .percent .number {
+.skills_container .containerProgressBar .number {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 5px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.skills_container .containerProgressBar .number .out-num {
+  color: #293844;
+  font-size: 44px;
+  font-weight: bold;
+  transition: 0.8s ease;
+}
+.skills_container .containerProgressBar .number span {
+  color: #293844;
+  margin-left: 3px;
+  font-size: 24px;
+  font-weight: bold;
+  transition: 0.8s ease;
+  border-bottom: 2px solid #293844;
+}
+.skills_container .containerProgressBar .number span:hover {
+  color: #d8d8d8;
+}
+.skills_container .containerProgressBar svg {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  transform: rotate(0deg);
+}
+.skills_container .containerProgressBar svg circle {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: #293844;
+  stroke-width: 10;
+  stroke-linecap: round;
+  transform: translate(5px, 5px);
+}
+.skills_container .containerProgressBar svg circle:nth-child(2) {
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+}
+
+/* ========================================================================================================= */
+.containerProgressBar {
+  stroke-linecap: round;
+  position: relative;
+  bottom: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: inset 0 0 10px #000000;
+  background: radial-gradient(circle, #5b687d 0%, #293844 100%);
+  z-index: 1;
+}
+.containerProgressBar .number {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -856,24 +939,48 @@ h6.fade {
   height: 100%;
   border-radius: 50%;
 }
-.skills_container .percent .number h2 {
+.containerProgressBar .number .counter {
   color: #293844;
   font-size: 44px;
   transition: 0.8s ease;
 }
-.skills_container .percent .number h2 span {
+.containerProgressBar .number .counter span {
   color: #293844;
-  padding-left: 3px;
+  margin-left: 3px;
   font-size: 24px;
   transition: 0.8s ease;
 }
-.skills_container .percent svg {
+.containerProgressBar .number .counter span:hover {
+  color: #d8d8d8;
+  border-bottom: 2px solid #d8d8d8;
+}
+.containerProgressBar h3 {
+  transition-delay: 1.63s;
+  transition: 0.6s ease-in-out;
+}
+.containerProgressBar h3 .icon_skills {
+  position: relative;
+  top: 150px;
+  transition-delay: 1.63s;
+  transition: 0.6s ease-in-out;
+}
+.containerProgressBar h3 .icon_skills:hover {
+  transform: translatey(-11px);
+  transition-delay: 1.63s;
+  transition: 0.6s ease-in-out;
+}
+.containerProgressBar .technology {
+  position: relative;
+  top: 150px;
+}
+.containerProgressBar svg {
   position: relative;
   width: 150px;
   height: 150px;
-  transform: rotate(-90deg);
+  transform: rotate(0deg);
+  bottom: 177px;
 }
-.skills_container .percent svg circle {
+.containerProgressBar svg circle {
   width: 100%;
   height: 100%;
   fill: none;
@@ -881,70 +988,11 @@ h6.fade {
   stroke-width: 10;
   stroke-linecap: round;
   transform: translate(5px, 5px);
+  transition: 5s cubic-bezier(0.43, 0.43, 0.51, 0.53);
 }
-.skills_container .percent svg circle:nth-child(2) {
+.containerProgressBar svg circle:nth-child(2) {
   stroke-dasharray: 440;
   stroke-dashoffset: 440;
-}
-.skills_container .card:nth-child(1) svg circle:nth-child(2) {
-  stroke-dashoffset: calc(440px - (440px * 90) / 100);
-  stroke: #d8d8d8;
-}
-.skills_container .card:nth-child(2) svg circle:nth-child(2) {
-  stroke-dashoffset: calc(440px - (440px * 80) / 100);
-  stroke: #d8d8d8;
-}
-.skills_container .card:nth-child(3) svg circle:nth-child(2) {
-  stroke-dashoffset: calc(440px - (440px * 40) / 100);
-  stroke: #d8d8d8;
-}
-.skills_container .card:nth-child(4) svg circle:nth-child(2) {
-  stroke-dashoffset: calc(440px - (440px * 40) / 100);
-  stroke: #d8d8d8;
-}
-.skills_container .card:nth-child(5) svg circle:nth-child(2) {
-  stroke-dashoffset: calc(440px - (440px * 20) / 100);
-  stroke: #d8d8d8;
-}
-.skills_container .card:nth-child(6) svg circle:nth-child(2) {
-  stroke-dashoffset: calc(440px - (440px * 20) / 100);
-  stroke: #d8d8d8;
-}
-.skills_container .card:nth-child(7) svg circle:nth-child(2) {
-  stroke-dashoffset: calc(440px - (440px * 50) / 100);
-  stroke: #d8d8d8;
-}
-.skills_container .card:nth-child(8) svg circle:nth-child(2) {
-  stroke-dashoffset: calc(440px - (440px * 20) / 100);
-  stroke: #d8d8d8;
-}
-.skills_container .card:nth-child(9) svg circle:nth-child(2) {
-  stroke-dashoffset: calc(440px - (440px * 20) / 100);
-  stroke: #d8d8d8;
-}
-.skills_container .card:nth-child(10) svg circle:nth-child(2) {
-  stroke-dashoffset: calc(440px - (440px * 70) / 100);
-  stroke: #d8d8d8;
-}
-.skills_container .card:nth-child(11) svg circle:nth-child(2) {
-  stroke-dashoffset: calc(440px - (440px * 20) / 100);
-  stroke: #d8d8d8;
-}
-.skills_container .card:nth-child(12) svg circle:nth-child(2) {
-  stroke-dashoffset: calc(440px - (440px * 50) / 100);
-  stroke: #d8d8d8;
-}
-.skills_container .card:nth-child(13) svg circle:nth-child(2) {
-  stroke-dashoffset: calc(440px - (440px * 80) / 100);
-  stroke: #d8d8d8;
-}
-.skills_container .card:nth-child(14) svg circle:nth-child(2) {
-  stroke-dashoffset: calc(440px - (440px * 80) / 100);
-  stroke: #d8d8d8;
-}
-.skills_container .card:nth-child(15) svg circle:nth-child(2) {
-  stroke-dashoffset: calc(440px - (440px * 50) / 100);
-  stroke: #d8d8d8;
 }
 
 @media (max-width: 600px) {
@@ -1018,9 +1066,54 @@ h6.fade {
   transition-delay: 0.63s;
 }
 
+/* ================================================================================ */
+.card:hover .containerProgressBar .technology {
+  bottom: 45px;
+}
+
+.card .containerProgressBar .technology {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #d8d8d8;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.94s ease-in-out;
+}
+
+.card .containerProgressBar .technology:hover {
+  color: #ff7043;
+}
+
+.card:hover .containerProgressBar .technology {
+  opacity: 1;
+  transform: translateY(-30px);
+  transition-delay: 0.28s;
+}
+
+.card:hover .containerProgressBar h3 .icon_skills {
+  opacity: 1;
+  transform: translateY(-11px);
+  transition-delay: 1.63s;
+  transition: 0.6s ease-in-out;
+}
+
+.card:hover .containerProgressBar h3 .icon_skills:hover {
+  opacity: 1;
+  transform: translateY(-11px);
+  transition-delay: 1.63s;
+  transition: 0.6s ease-in-out;
+}
+
 .services_wrap {
   height: auto;
-  padding: 30px;
+  padding: 60px 30px 80px;
   background: linear-gradient(90deg, rgba(41, 56, 68, 0.93) 0%, rgba(56, 75, 91, 0.79) 50%, rgba(56, 66, 74, 0.93) 100%), url("../img/27.jpg") center top repeat;
 }
 
@@ -1036,7 +1129,8 @@ h6.fade {
   position: relative;
   overflow: hidden;
   height: 80vh;
-  margin-top: 70px;
+  max-width: 1500px;
+  margin: 70px auto 0;
   border-radius: 15px;
   box-shadow: 0 0 20px #000000;
 }
@@ -1090,6 +1184,7 @@ h6.fade {
   border-radius: 15px;
   letter-spacing: 2px;
   opacity: 0.6;
+  transition: 0.7s;
 }
 .slider-container_desktop .left-slide .slider-color .link:hover {
   background: rgba(41, 56, 68, 0.1);
@@ -1416,7 +1511,7 @@ h6.fade {
   background: #000000;
   position: relative;
   overflow: hidden;
-  padding: 30px 30px;
+  padding: 60px 30px 30px;
 }
 .contacts_wrap:after {
   content: "";
@@ -1431,7 +1526,14 @@ h6.fade {
   opacity: 0.2;
   animation: animateFon 30s linear infinite;
 }
-.contacts_wrap .box-contacts {
+.contacts_wrap .contacts-container {
+  position: relative;
+  width: auto;
+  max-width: 1500px;
+  height: 100%;
+  margin: auto;
+}
+.contacts_wrap .contacts-container .box-contacts {
   position: relative;
   width: 100%;
   z-index: 2;
@@ -1439,7 +1541,7 @@ h6.fade {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin-top: 20px;
 }
-.contacts_wrap .box-contacts .wrap-input {
+.contacts_wrap .contacts-container .box-contacts .wrap-input {
   display: flex;
   justify-content: center;
   position: relative;
@@ -1448,7 +1550,7 @@ h6.fade {
   margin: 30px 0 10px;
   transition: 0.5s;
 }
-.contacts_wrap .box-contacts .wrap-input .input-submit {
+.contacts_wrap .contacts-container .box-contacts .wrap-input .input-submit {
   border: 2px solid #ff7043;
   padding: 7px 35px;
   cursor: pointer;
@@ -1461,18 +1563,18 @@ h6.fade {
   letter-spacing: 2px;
   transition: 0.7s;
 }
-.contacts_wrap .box-contacts .wrap-input .input-submit:hover {
+.contacts_wrap .contacts-container .box-contacts .wrap-input .input-submit:hover {
   background: transparent;
   color: #ff7043;
   transition: 0.5s;
 }
-.contacts_wrap .box-contacts .box-input {
+.contacts_wrap .contacts-container .box-contacts .box-input {
   position: relative;
   width: 100%;
   height: 40px;
   color: #ff7043;
 }
-.contacts_wrap .box-contacts .box-input input, .contacts_wrap .box-contacts .box-input.textarea textarea {
+.contacts_wrap .contacts-container .box-contacts .box-input input, .contacts_wrap .contacts-container .box-contacts .box-input.textarea textarea {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1487,14 +1589,14 @@ h6.fade {
   color: #ffffff;
   border-radius: 10px;
 }
-.contacts_wrap .box-contacts .box-input input:focus + .text, .contacts_wrap .box-contacts .box-input input:valid + .text, .contacts_wrap .box-contacts .box-input.textarea textarea:focus + .text, .contacts_wrap .box-contacts .box-input.textarea textarea:valid + .text {
+.contacts_wrap .contacts-container .box-contacts .box-input input:focus + .text, .contacts_wrap .contacts-container .box-contacts .box-input input:valid + .text, .contacts_wrap .contacts-container .box-contacts .box-input.textarea textarea:focus + .text, .contacts_wrap .contacts-container .box-contacts .box-input.textarea textarea:valid + .text {
   top: -35px;
   left: -10px;
 }
-.contacts_wrap .box-contacts .box-input input:focus ~ .line, .contacts_wrap .box-contacts .box-input input:valid ~ .line, .contacts_wrap .box-contacts .box-input.textarea textarea:focus ~ .line, .contacts_wrap .box-contacts .box-input.textarea textarea:valid ~ .line {
+.contacts_wrap .contacts-container .box-contacts .box-input input:focus ~ .line, .contacts_wrap .contacts-container .box-contacts .box-input input:valid ~ .line, .contacts_wrap .contacts-container .box-contacts .box-input.textarea textarea:focus ~ .line, .contacts_wrap .contacts-container .box-contacts .box-input.textarea textarea:valid ~ .line {
   height: 100%;
 }
-.contacts_wrap .box-contacts .box-input .text {
+.contacts_wrap .contacts-container .box-contacts .box-input .text {
   position: absolute;
   top: 0;
   left: 0;
@@ -1506,10 +1608,10 @@ h6.fade {
   transition: 0.5s;
   pointer-events: none;
 }
-.contacts_wrap .box-contacts .box-input .text-sms {
+.contacts_wrap .contacts-container .box-contacts .box-input .text-sms {
   top: 140px;
 }
-.contacts_wrap .box-contacts .box-input .line {
+.contacts_wrap .contacts-container .box-contacts .box-input .line {
   position: absolute;
   bottom: 0;
   display: block;
@@ -1520,21 +1622,21 @@ h6.fade {
   border-radius: 10px;
   pointer-events: none;
 }
-.contacts_wrap .box-contacts .box-input.textarea {
+.contacts_wrap .contacts-container .box-contacts .box-input.textarea {
   position: relative;
   width: 100%;
   height: 180px;
   padding: 0 0;
 }
-.contacts_wrap .box-contacts .box-input.textarea textarea {
+.contacts_wrap .contacts-container .box-contacts .box-input.textarea textarea {
   height: -webkit-fill-available;
   resize: none;
 }
-.contacts_wrap .box-contacts .box-input textarea:focus + .text, .contacts_wrap .box-contacts .box-input textarea:valid + .text {
+.contacts_wrap .contacts-container .box-contacts .box-input textarea:focus + .text, .contacts_wrap .contacts-container .box-contacts .box-input textarea:valid + .text {
   top: -35px;
   left: -10px;
 }
-.contacts_wrap .box-contacts .box-input textarea:focus ~ .line, .contacts_wrap .box-contacts .box-input textarea:valid ~ .line {
+.contacts_wrap .contacts-container .box-contacts .box-input textarea:focus ~ .line, .contacts_wrap .contacts-container .box-contacts .box-input textarea:valid ~ .line {
   height: 100px;
 }
 
@@ -1574,9 +1676,11 @@ h6.fade {
   left: 35%;
   font-size: 25px;
   transition: all 0.3s ease-out;
+  cursor: pointer;
 }
 .social-container .social-icons a {
   display: inline-block;
+  cursor: pointer;
 }
 .social-container .social-icons a:before {
   transform: scale(1);
@@ -1674,6 +1778,10 @@ h6.fade {
   margin-bottom: 40px;
 }
 
+.left-42 {
+  left: 42% !important;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -1703,9 +1811,29 @@ body {
 
 .wrap {
   min-width: 320px;
-  max-width: 1440px;
+  max-width: 1540px;
   margin: 0 auto;
   padding: 15px 20px;
+}
+
+.blackout:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  margin-top: -98px;
+  width: 100%;
+  height: 100px;
+  z-index: 4;
+  background: linear-gradient(to top, #000000, transparent);
+}
+.blackout:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 4;
+  background: linear-gradient(to bottom, #000000, transparent);
 }
 
 /*# sourceMappingURL=style.css.map */
