@@ -19,20 +19,19 @@ document.getElementById('telegram').addEventListener('submit', function(e) {
         parse_mode: 'html',
         text: message
     })
-        .then((res) => {
-            this.name.value = "";
-            this.family.value = "";
-            this.email.value = "";
-            this.tel.value = "";
-            this.massage.value = "";
-            success.innerHTML = "Сообщение отправлено"
-            success.style.display = "block";
-        })
-        .catch((err) => {
+    .then((res) => {
+        this.name.value = "";
+        this.family.value = "";
+        this.email.value = "";
+        this.tel.value = "";
+        this.massage.value = "";
+        success.innerHTML = "Сообщение отправлено"
+        success.style.display = "block";
+    })
+    .catch((err) => {
 
-        })
-        .finally(() => {
+    })
+    .finally(() => {
 
-        })
+    })
 })
-

@@ -25,6 +25,7 @@
     max-width: 1500px
     height: 100%
     margin: auto
+    overflow-x: hidden
 
     .box-contacts
       position: relative
@@ -131,6 +132,66 @@
 
         textarea:focus ~ .line, textarea:valid ~ .line
           height: 100px
+
+    .box-alert
+      display: block
+      position: absolute
+      right: 0
+      top: 10px
+      background-color: #19ab00
+      font-size: 16px
+      color: $black
+      padding: 10px 40px
+      border-radius: 10px
+      z-index: 40
+
+      .close-alert
+        cursor: pointer
+        position: absolute
+        z-index: 40
+        font-size: 16px
+        right: 10px
+        top: 15px
+
+    .show
+      animation: showAlert 1s ease forwards
+
+      &:before
+        content: ""
+        position: absolute
+        left: 0
+        bottom: 0
+        height: 4px
+        background-color: #238a00
+        width: 97%
+        box-sizing: border-box
+        z-index: 40
+        animation: hideMeter 5s linear
+        border-radius: 10px
+
+    .hide
+      animation: hideAlert 1s ease forwards
+
+    .hidden
+      visibility: hidden
+
+@keyframes showAlert
+  0%
+    transform: translateX(100%)
+  100%
+    transform: translateX(0%)
+
+@keyframes hideAlert
+  0%
+    transform: translateX(0%)
+  100%
+    transform: translateX(100%)
+
+@keyframes hideMeter
+  0%
+    transform: translateX(100%)
+  100%
+    transform: translateX(0%)
 
 @keyframes animateFon
   50%
